@@ -1,4 +1,4 @@
-﻿Log file open, 01/14/19 13:33:28
+﻿Log file open, 01/14/19 19:51:04
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: KA_whiteBoxInClass
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.232806
+LogStats: Stats thread started at 0.195144
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +91,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.335s to configure plugins.
+LogStreaming: Display: Took  0.358s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -148,183 +148,1082 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.01.14-20.33.29:635][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.14-20.33.29:635][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.01.14-20.33.29:717][  0]LogHAL: Display: Platform has ~ 8 GB [8507432960 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.01.14-20.33.29:717][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.01.14-20.33.29:717][  0]LogInit: Going up to parent DeviceProfile []
-[2019.01.14-20.33.29:718][  0]LogInit: Computer: LAPTOP-CQL85LHE
-[2019.01.14-20.33.29:718][  0]LogInit: User: kevin
-[2019.01.14-20.33.29:718][  0]LogInit: CPU Page size=4096, Cores=2
-[2019.01.14-20.33.29:718][  0]LogInit: High frequency timer resolution =2.338338 MHz
-[2019.01.14-20.33.29:719][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.01.14-20.33.29:719][  0]LogMemory: Platform Memory Stats for Windows
-[2019.01.14-20.33.29:719][  0]LogMemory: Process Physical Memory: 99.92 MB used, 99.92 MB peak
-[2019.01.14-20.33.29:719][  0]LogMemory: Process Virtual Memory: 90.73 MB used, 90.73 MB peak
-[2019.01.14-20.33.29:719][  0]LogMemory: Physical Memory: 6282.60 MB used,  1830.72 MB free, 8113.32 MB total
-[2019.01.14-20.33.29:719][  0]LogMemory: Virtual Memory: 4628.20 MB used,  1830.72 MB free, 134217728.00 MB total
-[2019.01.14-20.33.29:757][  0]LogInit: Using OS detected language (en-US).
-[2019.01.14-20.33.29:757][  0]LogInit: Using OS detected locale (en-US).
-[2019.01.14-20.33.29:759][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.01.14-20.33.30:300][  0]LogStreaming: Display: Took  0.543s to InitEngineTextLocalization.
-[2019.01.14-20.33.30:301][  0]LogInit: Setting process to per monitor DPI aware
-[2019.01.14-20.33.30:353][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.01.14-20.33.30:353][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.01.14-20.33.30:643][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.14-20.33.30:643][  0]LogD3D11RHI: D3D11 adapters:
-[2019.01.14-20.33.30:652][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
-[2019.01.14-20.33.30:652][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2019.01.14-20.33.30:655][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.01.14-20.33.30:655][  0]LogD3D11RHI:       0/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.01.14-20.33.30:655][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.01.14-20.33.30:664][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.01.14-20.33.30:664][  0]LogD3D11RHI:     GPU DeviceId: 0xa16 (for the marketing name, search the web for "GPU Device Id")
-[2019.01.14-20.33.30:664][  0]LogWindows: EnumDisplayDevices:
-[2019.01.14-20.33.30:664][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
-[2019.01.14-20.33.30:665][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
-[2019.01.14-20.33.30:665][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
-[2019.01.14-20.33.30:665][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2019.01.14-20.33.30:665][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics Family
-[2019.01.14-20.33.30:665][  0]LogD3D11RHI:   Driver Version: 20.19.15.4703 (internal:20.19.15.4703, unified:20.19.15.4703)
-[2019.01.14-20.33.30:665][  0]LogD3D11RHI:      Driver Date: 6-9-2017
-[2019.01.14-20.33.30:665][  0]LogRHI: Texture pool is 795 MB (70% of 1136 MB)
-[2019.01.14-20.33.30:671][  0]LogD3D11RHI: Async texture creation enabled
-[2019.01.14-20.33.30:679][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
-[2019.01.14-20.33.30:680][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Intermediate/Shaders/WorkingDirectory/6236/).
-[2019.01.14-20.33.30:680][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kevin/AppData/Local/Temp/UnrealShaderWorkingDir/C22C765D450D6F4879E8339E59AA6DEE/'.
-[2019.01.14-20.33.31:658][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.01.14-20.33.31:677][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.01.14-20.33.31:694][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.01.14-20.33.31:712][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.01.14-20.33.31:731][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.01.14-20.33.31:749][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.01.14-20.33.31:766][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.01.14-20.33.31:785][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.01.14-20.33.31:794][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.01.14-20.33.31:911][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-20.33.31:911][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-20.33.31:911][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-20.33.31:911][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-20.33.31:911][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-20.33.31:911][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-20.33.31:911][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-20.33.31:911][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-20.33.31:911][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-20.33.31:911][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-20.33.31:911][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-20.33.31:911][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-20.33.31:911][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-20.33.31:911][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-20.33.31:911][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-20.33.31:911][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-20.33.31:911][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-20.33.31:911][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-20.33.31:913][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.01.14-20.33.31:984][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.14-20.33.31:984][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.14-20.33.32:019][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.14-20.33.32:019][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.14-20.33.32:036][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.01.14-20.33.32:055][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.01.14-20.33.32:071][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.01.14-20.33.32:089][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.01.14-20.33.32:101][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.01.14-20.33.32:101][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.01.14-20.33.32:204][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.01.14-20.33.32:204][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.01.14-20.33.32:204][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.01.14-20.33.33:206][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.01.14-20.33.34:217][  0]LogDerivedDataCache: Loaded boot cache 1.01s 71MB C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.01.14-20.33.34:219][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.01.14-20.33.34:220][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.01.14-20.33.34:220][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.01.14-20.33.34:220][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.01.14-20.33.34:220][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.01.14-20.33.34:284][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.01.14-20.33.34:316][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kevin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.01.14-20.33.34:316][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.01.14-20.33.34:316][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.01.14-20.33.34:396][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.01.14-20.33.34:402][  0]LogSlate: Using FreeType 2.6.0
-[2019.01.14-20.33.34:469][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.01.14-20.33.39:054][  0]LogAssetRegistry: FAssetRegistry took 0.0276 seconds to start up
-[2019.01.14-20.33.39:549][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.14-20.33.39:819][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.01.14-20.33.39:824][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.01.14-20.33.39:824][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.01.14-20.33.39:824][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.01.14-20.33.39:824][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.01.14-20.33.39:842][  0]LogNetVersion: KA_whiteBoxInClass 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2929727213)
-[2019.01.14-20.33.40:923][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.344944 seconds
-[2019.01.14-20.33.40:933][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.01.14-20.33.40:933][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2019.01.14-20.33.40:933][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.01.14-20.35.21:110][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.01.14-20.35.21:192][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.01.14-20.35.23:577][  0]SourceControl: Source control is disabled
-[2019.01.14-20.35.23:577][  0]SourceControl: Source control is disabled
-[2019.01.14-20.35.23:583][  0]SourceControl: Source control is disabled
-[2019.01.14-20.35.23:586][  0]SourceControl: Source control is disabled
-[2019.01.14-20.35.24:398][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.01.14-20.35.24:561][  0]LogOcInput: OculusInput pre-init called
-[2019.01.14-20.35.25:022][  0]LogEngine: Initializing Engine...
-[2019.01.14-20.35.25:024][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.14-20.35.25:028][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.14-20.35.25:028][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.14-20.35.25:028][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.14-20.35.25:028][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.14-20.35.25:410][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.01.14-20.35.25:447][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.01.14-20.35.25:458][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.14-20.35.25:686][  0]LogInit: FAudioDevice initialized.
-[2019.01.14-20.35.25:687][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.01.14-20.35.26:236][  0]LogDerivedDataCache: Saved boot cache 0.55s 71MB C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.01.14-20.35.26:253][  0]LogInit: Texture streaming: Enabled
-[2019.01.14-20.35.26:340][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.01.14-20.35.26:388][  0]LogInit: Transaction tracking system initialized
-[2019.01.14-20.35.26:460][  0]BlueprintLog: New page: Editor Load
-[2019.01.14-20.35.27:853][  0]LocalizationService: Localization service is disabled
-[2019.01.14-20.35.29:747][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/' took 0.01s
-[2019.01.14-20.35.29:747][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.01.14-20.35.29:748][  0]LogCook: Display: Mobile HDR setting 1
-[2019.01.14-20.35.29:850][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.01.14-20.35.29:850][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.14-20.35.29:850][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.14-20.35.29:851][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.14-20.35.29:851][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.14-20.35.33:312][  0]SourceControl: Source control is disabled
-[2019.01.14-20.35.33:312][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.14-20.35.33:313][  0]LightingResults: New page: Lighting Build
-[2019.01.14-20.35.33:319][  0]MapCheck: New page: Map Check
-[2019.01.14-20.35.33:319][  0]LightingResults: New page: Lighting Build
-[2019.01.14-20.35.33:670][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2019.01.14-20.35.33:679][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.14-20.35.33:717][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.14-20.35.33:803][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 85.141ms to complete.
-[2019.01.14-20.35.33:803][  0]LogFileHelpers: Loading map 'Template_Default' took 0.491
-[2019.01.14-20.35.46:512][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.14-20.35.47:200][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.14-20.35.47:211][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.14-20.35.47:222][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.14-20.35.48:576][  0]LogCollectionManager: Loaded 0 collections in 0.006312 seconds
-[2019.01.14-20.35.51:716][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/Collections/' took 0.01s
-[2019.01.14-20.35.51:717][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/Developers/kevin/Collections/' took 0.01s
-[2019.01.14-20.35.51:717][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/Collections/' took 0.01s
-[2019.01.14-20.35.51:717][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.01.14-20.35.52:091][  0]LogContentBrowser: Native class hierarchy populated in 0.1701 seconds. Added 2572 classes and 603 folders.
-[2019.01.14-20.35.53:014][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2019.01.14-20.36.00:467][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2019.01.14-20.36.01:394][  0]LogSlate: Took 0.046297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.01.14-20.36.01:482][  0]LogSlate: Took 0.044083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.01.14-20.36.02:163][  0]LogSlate: Took 0.077518 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.01.14-20.36.05:437][  0]LogRenderer: Reallocating scene render targets to support 1076x300 Format 10 NumSamples 1 (Frame:1).
-[2019.01.14-20.36.11:965][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2019.01.14-20.36.11:965][  0]LogLoad: (Engine Initialization) Total time: 165.49 seconds
-[2019.01.14-20.36.11:965][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.01.14-20.36.12:208][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-20.36.12:436][  0]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.01.14-20.36.13:492][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.14-20.36.13:673][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.01.14-20.36.23:016][215]LogAssetRegistry: Asset discovery search completed in 163.9850 seconds
-[2019.01.14-20.36.23:025][215]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2019.01.14-20.36.23:025][215]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000171 seconds (updated 0 objects)
+[2019.01.15-02.51.04:941][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.15-02.51.04:941][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.15-02.51.05:043][  0]LogHAL: Display: Platform has ~ 8 GB [8507432960 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.15-02.51.05:043][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.15-02.51.05:043][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.15-02.51.05:044][  0]LogInit: Computer: LAPTOP-CQL85LHE
+[2019.01.15-02.51.05:044][  0]LogInit: User: kevin
+[2019.01.15-02.51.05:044][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.01.15-02.51.05:044][  0]LogInit: High frequency timer resolution =2.338338 MHz
+[2019.01.15-02.51.05:044][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.01.15-02.51.05:044][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.15-02.51.05:044][  0]LogMemory: Process Physical Memory: 100.28 MB used, 100.28 MB peak
+[2019.01.15-02.51.05:044][  0]LogMemory: Process Virtual Memory: 84.63 MB used, 84.63 MB peak
+[2019.01.15-02.51.05:044][  0]LogMemory: Physical Memory: 5627.00 MB used,  2486.32 MB free, 8113.32 MB total
+[2019.01.15-02.51.05:044][  0]LogMemory: Virtual Memory: 4621.76 MB used,  2486.32 MB free, 134217728.00 MB total
+[2019.01.15-02.51.05:074][  0]LogInit: Using OS detected language (en-US).
+[2019.01.15-02.51.05:074][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.15-02.51.05:076][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.15-02.51.05:812][  0]LogStreaming: Display: Took  0.738s to InitEngineTextLocalization.
+[2019.01.15-02.51.05:812][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.15-02.51.05:859][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.15-02.51.05:859][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.15-02.51.06:144][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.15-02.51.06:144][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.15-02.51.06:152][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2019.01.15-02.51.06:152][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.01.15-02.51.06:155][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.15-02.51.06:155][  0]LogD3D11RHI:       0/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.15-02.51.06:155][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.15-02.51.06:162][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.15-02.51.06:162][  0]LogD3D11RHI:     GPU DeviceId: 0xa16 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.15-02.51.06:162][  0]LogWindows: EnumDisplayDevices:
+[2019.01.15-02.51.06:163][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2019.01.15-02.51.06:163][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2019.01.15-02.51.06:163][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2019.01.15-02.51.06:164][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2019.01.15-02.51.06:164][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics Family
+[2019.01.15-02.51.06:164][  0]LogD3D11RHI:   Driver Version: 20.19.15.4703 (internal:20.19.15.4703, unified:20.19.15.4703)
+[2019.01.15-02.51.06:164][  0]LogD3D11RHI:      Driver Date: 6-9-2017
+[2019.01.15-02.51.06:164][  0]LogRHI: Texture pool is 795 MB (70% of 1136 MB)
+[2019.01.15-02.51.06:170][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.15-02.51.06:176][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2019.01.15-02.51.06:177][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Intermediate/Shaders/WorkingDirectory/17700/).
+[2019.01.15-02.51.06:177][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kevin/AppData/Local/Temp/UnrealShaderWorkingDir/A338AD9840CE03A97591D08DF5987526/'.
+[2019.01.15-02.51.06:678][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.15-02.51.06:700][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.15-02.51.06:726][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.15-02.51.06:750][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.15-02.51.06:773][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.15-02.51.06:796][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.15-02.51.06:819][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.15-02.51.06:844][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.15-02.51.06:856][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.15-02.51.07:006][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.15-02.51.07:006][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.15-02.51.07:006][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.15-02.51.07:006][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.15-02.51.07:006][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.15-02.51.07:006][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.15-02.51.07:006][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.15-02.51.07:006][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.15-02.51.07:006][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.15-02.51.07:006][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.15-02.51.07:006][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.15-02.51.07:006][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.15-02.51.07:006][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.15-02.51.07:006][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.15-02.51.07:007][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.15-02.51.07:007][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.15-02.51.07:007][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.15-02.51.07:007][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.15-02.51.07:009][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.15-02.51.07:085][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.15-02.51.07:085][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.15-02.51.07:119][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.15-02.51.07:119][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.15-02.51.07:136][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.15-02.51.07:153][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.15-02.51.07:170][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.15-02.51.07:197][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.15-02.51.07:210][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.15-02.51.07:210][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.15-02.51.07:289][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.15-02.51.07:289][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.15-02.51.07:289][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.15-02.51.08:376][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.15-02.51.08:450][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.15-02.51.08:451][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.15-02.51.08:451][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.15-02.51.08:451][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.15-02.51.08:451][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.15-02.51.08:451][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.15-02.51.08:469][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.15-02.51.08:481][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kevin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.15-02.51.08:481][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.15-02.51.08:481][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.15-02.51.08:506][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.15-02.51.08:508][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.15-02.51.08:508][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.15-02.51.08:599][  0]LogAssetRegistry: FAssetRegistry took 0.0281 seconds to start up
+[2019.01.15-02.51.09:120][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.15-02.51.09:326][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.15-02.51.09:331][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.15-02.51.09:331][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.15-02.51.09:331][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.15-02.51.09:331][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.15-02.51.09:348][  0]LogNetVersion: KA_whiteBoxInClass 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2929727213)
+[2019.01.15-02.51.10:147][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.166930 seconds
+[2019.01.15-02.51.10:155][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.15-02.51.10:155][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.01.15-02.51.10:155][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.15-02.51.11:330][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.15-02.51.11:344][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.15-02.51.11:523][  0]SourceControl: Source control is disabled
+[2019.01.15-02.51.11:523][  0]SourceControl: Source control is disabled
+[2019.01.15-02.51.11:525][  0]SourceControl: Source control is disabled
+[2019.01.15-02.51.11:526][  0]SourceControl: Source control is disabled
+[2019.01.15-02.51.11:701][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.15-02.51.11:753][  0]LogOcInput: OculusInput pre-init called
+[2019.01.15-02.51.11:830][  0]LogEngine: Initializing Engine...
+[2019.01.15-02.51.11:831][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.15-02.51.11:832][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.15-02.51.11:832][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.15-02.51.11:832][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.15-02.51.11:832][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.15-02.51.12:162][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.15-02.51.12:189][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.15-02.51.12:197][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.15-02.51.12:216][  0]LogInit: FAudioDevice initialized.
+[2019.01.15-02.51.12:217][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.15-02.51.12:415][  0]LogDerivedDataCache: Saved boot cache 0.20s 71MB C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.15-02.51.12:429][  0]LogInit: Texture streaming: Enabled
+[2019.01.15-02.51.12:452][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.15-02.51.12:470][  0]LogInit: Transaction tracking system initialized
+[2019.01.15-02.51.12:501][  0]BlueprintLog: New page: Editor Load
+[2019.01.15-02.51.12:631][  0]LocalizationService: Localization service is disabled
+[2019.01.15-02.51.13:030][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.15-02.51.13:030][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.15-02.51.13:030][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.15-02.51.13:030][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.15-02.51.13:030][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.15-02.51.13:031][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.15-02.51.13:031][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.15-02.51.13:106][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/' took 0.02s
+[2019.01.15-02.51.13:208][  0]SourceControl: Source control is disabled
+[2019.01.15-02.51.13:209][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.15-02.51.13:209][  0]LightingResults: New page: Lighting Build
+[2019.01.15-02.51.13:214][  0]MapCheck: New page: Map Check
+[2019.01.15-02.51.13:214][  0]LightingResults: New page: Lighting Build
+[2019.01.15-02.51.13:571][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.01.15-02.51.13:585][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2019.01.15-02.51.13:644][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.15-02.51.13:737][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 92.527ms to complete.
+[2019.01.15-02.51.13:737][  0]LogFileHelpers: Loading map 'Template_Default' took 0.528
+[2019.01.15-02.51.14:541][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.15-02.51.14:550][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.15-02.51.14:562][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.15-02.51.14:574][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.15-02.51.14:686][  0]LogCollectionManager: Loaded 0 collections in 0.003631 seconds
+[2019.01.15-02.51.14:762][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/Collections/' took 0.01s
+[2019.01.15-02.51.14:762][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/Developers/kevin/Collections/' took 0.01s
+[2019.01.15-02.51.14:762][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/Collections/' took 0.01s
+[2019.01.15-02.51.14:762][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.15-02.51.14:780][  0]LogContentBrowser: Native class hierarchy populated in 0.0176 seconds. Added 2572 classes and 603 folders.
+[2019.01.15-02.51.15:213][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.01.15-02.51.18:516][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0022 seconds. Added 0 classes and 0 folders.
+[2019.01.15-02.51.18:554][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.01.15-02.51.18:645][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.01.15-02.51.18:645][  0]LogLoad: (Engine Initialization) Total time: 16.68 seconds
+[2019.01.15-02.51.18:645][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.15-02.51.18:697][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.15-02.51.18:700][  0]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.15-02.51.18:705][  0]LogSlate: Took 0.000462 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.15-02.51.18:811][  0]LogSlate: Took 0.095575 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.15-02.51.19:424][  2]LogRenderer: Reallocating scene render targets to support 804x292 Format 10 NumSamples 1 (Frame:1).
+[2019.01.15-02.51.20:682][  3]LogSlate: Took 0.044959 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.15-02.51.20:724][  4]LogAssetRegistry: Asset discovery search completed in 12.1478 seconds
+[2019.01.15-02.51.20:734][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.15-02.51.20:734][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000129 seconds (updated 0 objects)
+[2019.01.15-02.51.23:405][ 12]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.15-02.53.36:812][442]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-02.53.38:282][487]LogAIModule: Creating AISystem for world KA_whitebox_inclass
+[2019.01.15-02.53.38:292][487]LogAssetEditorManager: Opening Asset editor for World /Game/KA_whitebox_inclass.KA_whitebox_inclass
+[2019.01.15-02.53.38:333][487]Cmd: MAP LOAD FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_whitebox_inclass.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.15-02.53.38:333][487]LightingResults: New page: Lighting Build
+[2019.01.15-02.53.38:334][487]LoadErrors: New page: Loading map: KA_whitebox_inclass.umap
+[2019.01.15-02.53.38:335][487]MapCheck: New page: Map Check
+[2019.01.15-02.53.38:335][487]LightingResults: New page: Lighting Build
+[2019.01.15-02.53.38:411][487]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.15-02.53.38:467][487]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.15-02.53.38:545][487]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 77.418ms to complete.
+[2019.01.15-02.53.38:546][487]LogFileHelpers: Loading map 'KA_whitebox_inclass' took 0.213
+[2019.01.15-02.53.46:541][692]Cmd: TRANSACTION UNDO
+[2019.01.15-02.53.46:541][692]LogEditorTransaction: Undo Move Actors
+[2019.01.15-02.53.56:113][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-02.59.38:727][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-02.59.38:857][289]LogRenderer: Reallocating scene render targets to support 856x300 Format 10 NumSamples 1 (Frame:10780).
+[2019.01.15-02.59.41:844][359]LogRenderer: Reallocating scene render targets to support 856x304 Format 10 NumSamples 1 (Frame:10848).
+[2019.01.15-02.59.41:922][360]LogRenderer: Reallocating scene render targets to support 856x316 Format 10 NumSamples 1 (Frame:10850).
+[2019.01.15-02.59.42:015][361]LogRenderer: Reallocating scene render targets to support 856x336 Format 10 NumSamples 1 (Frame:10852).
+[2019.01.15-02.59.42:101][362]LogRenderer: Reallocating scene render targets to support 856x364 Format 10 NumSamples 1 (Frame:10854).
+[2019.01.15-02.59.42:177][363]LogRenderer: Reallocating scene render targets to support 856x376 Format 10 NumSamples 1 (Frame:10856).
+[2019.01.15-02.59.42:291][364]LogRenderer: Reallocating scene render targets to support 856x400 Format 10 NumSamples 1 (Frame:10858).
+[2019.01.15-02.59.42:388][365]LogRenderer: Reallocating scene render targets to support 856x420 Format 10 NumSamples 1 (Frame:10860).
+[2019.01.15-02.59.42:485][366]LogRenderer: Reallocating scene render targets to support 856x436 Format 10 NumSamples 1 (Frame:10862).
+[2019.01.15-02.59.42:582][367]LogRenderer: Reallocating scene render targets to support 856x452 Format 10 NumSamples 1 (Frame:10864).
+[2019.01.15-02.59.42:682][368]LogRenderer: Reallocating scene render targets to support 856x456 Format 10 NumSamples 1 (Frame:10866).
+[2019.01.15-02.59.42:881][371]LogRenderer: Reallocating scene render targets to support 856x460 Format 10 NumSamples 1 (Frame:10870).
+[2019.01.15-02.59.47:660][475]LogEditorViewport: Clicking Background
+[2019.01.15-02.59.49:102][510]Cmd: TRANSACTION UNDO
+[2019.01.15-02.59.49:102][510]LogEditorTransaction: Undo Clicking Background
+[2019.01.15-02.59.49:928][549]Cmd: TRANSACTION UNDO
+[2019.01.15-02.59.49:928][549]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2019.01.15-02.59.53:266][622]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-02.59.57:324][712]Cmd: TRANSACTION UNDO
+[2019.01.15-02.59.57:325][712]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2019.01.15-03.00.05:500][928]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.00.23:926][320]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.00.35:534][616]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.00.40:352][723]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.00.46:572][857]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.00.55:649][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.01.02:741][289]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.01.04:625][330]Cmd: TRANSACTION UNDO
+[2019.01.15-03.01.04:625][330]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-03.01.05:600][382]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.15-03.01.07:765][436]Cmd: TRANSACTION UNDO
+[2019.01.15-03.01.07:765][436]LogEditorTransaction: Undo Move Actors
+[2019.01.15-03.01.08:281][459]Cmd: TRANSACTION UNDO
+[2019.01.15-03.01.08:281][459]LogEditorTransaction: Undo Move Actors
+[2019.01.15-03.01.09:447][504]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.01.19:640][727]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.02.14:585][ 54]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.02.20:360][183]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.02.21:233][201]Cmd: TRANSACTION UNDO
+[2019.01.15-03.02.21:233][201]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-03.02.21:977][239]Cmd: TRANSACTION UNDO
+[2019.01.15-03.02.21:977][239]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-03.02.22:573][264]Cmd: TRANSACTION UNDO
+[2019.01.15-03.02.22:574][264]LogEditorTransaction: Undo Move Actors
+[2019.01.15-03.02.23:475][284]Cmd: TRANSACTION UNDO
+[2019.01.15-03.02.23:476][284]LogEditorTransaction: Undo Move Actors
+[2019.01.15-03.02.24:084][298]Cmd: TRANSACTION UNDO
+[2019.01.15-03.02.24:084][298]LogEditorTransaction: Undo Move Actors
+[2019.01.15-03.02.25:042][320]Cmd: TRANSACTION UNDO
+[2019.01.15-03.02.25:042][320]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-03.02.26:000][343]Cmd: TRANSACTION UNDO
+[2019.01.15-03.02.26:000][343]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-03.02.28:775][404]Cmd: TRANSACTION UNDO
+[2019.01.15-03.02.28:775][404]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-03.02.29:460][420]Cmd: TRANSACTION UNDO
+[2019.01.15-03.02.29:460][420]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-03.02.30:719][448]Cmd: TRANSACTION UNDO
+[2019.01.15-03.02.30:719][448]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-03.02.31:356][462]Cmd: TRANSACTION UNDO
+[2019.01.15-03.02.31:356][462]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-03.02.32:103][480]Cmd: TRANSACTION UNDO
+[2019.01.15-03.02.32:103][480]LogEditorTransaction: Undo Move Actors
+[2019.01.15-03.02.33:258][506]Cmd: TRANSACTION UNDO
+[2019.01.15-03.02.33:258][506]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-03.02.34:139][527]Cmd: TRANSACTION UNDO
+[2019.01.15-03.02.34:139][527]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-03.02.34:718][541]Cmd: TRANSACTION UNDO
+[2019.01.15-03.02.34:718][541]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-03.02.35:544][561]Cmd: TRANSACTION UNDO
+[2019.01.15-03.02.35:544][561]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-03.02.36:440][581]Cmd: TRANSACTION UNDO
+[2019.01.15-03.02.36:440][581]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.15-03.02.37:130][597]Cmd: TRANSACTION UNDO
+[2019.01.15-03.02.37:130][597]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.15-03.03.13:449][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.15-03.03.32:832][518]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_16, Buffer: d6f20b30, Buffer Size: 0, Element: 0
+[2019.01.15-03.03.32:833][518]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_16, Buffer: d6f20b30, Buffer Size: 0, Element: 1
+[2019.01.15-03.03.32:833][518]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_16, Buffer: d6f20b30, Buffer Size: 0, Element: 2
+[2019.01.15-03.03.32:833][518]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_16, Buffer: d6f20b30, Buffer Size: 0, Element: 3
+[2019.01.15-03.03.32:833][518]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_16' invalid (160 verts, 0 indices).
+[2019.01.15-03.03.32:850][518]LogPhysics: Warning: Attempt to build physics data for /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_16.BodySetup_0 when we are unable to.
+[2019.01.15-03.03.32:851][518]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_17, Buffer: d6f20b30, Buffer Size: 0, Element: 0
+[2019.01.15-03.03.32:851][518]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_17, Buffer: d6f20b30, Buffer Size: 0, Element: 1
+[2019.01.15-03.03.32:851][518]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_17, Buffer: d6f20b30, Buffer Size: 0, Element: 2
+[2019.01.15-03.03.32:851][518]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_17, Buffer: d6f20b30, Buffer Size: 0, Element: 3
+[2019.01.15-03.03.32:851][518]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_17' invalid (160 verts, 0 indices).
+[2019.01.15-03.03.32:851][518]LogPhysics: Warning: Attempt to build physics data for /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_17.BodySetup_0 when we are unable to.
+[2019.01.15-03.03.32:851][518]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_18, Buffer: d6f20b30, Buffer Size: 0, Element: 0
+[2019.01.15-03.03.32:852][518]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_18, Buffer: d6f20b30, Buffer Size: 0, Element: 1
+[2019.01.15-03.03.32:852][518]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_18, Buffer: d6f20b30, Buffer Size: 0, Element: 2
+[2019.01.15-03.03.32:852][518]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_18, Buffer: d6f20b30, Buffer Size: 0, Element: 3
+[2019.01.15-03.03.32:852][518]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_18, Buffer: d6f20b30, Buffer Size: 0, Element: 4
+[2019.01.15-03.03.32:852][518]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_18, Buffer: d6f20b30, Buffer Size: 0, Element: 5
+[2019.01.15-03.03.32:852][518]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_18' invalid (160 verts, 0 indices).
+[2019.01.15-03.03.32:852][518]LogPhysics: Warning: Attempt to build physics data for /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_18.BodySetup_0 when we are unable to.
+[2019.01.15-03.03.32:852][518]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_19, Buffer: d6f20b30, Buffer Size: 0, Element: 0
+[2019.01.15-03.03.32:852][518]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_19, Buffer: d6f20b30, Buffer Size: 0, Element: 1
+[2019.01.15-03.03.32:852][518]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_19, Buffer: d6f20b30, Buffer Size: 0, Element: 2
+[2019.01.15-03.03.32:852][518]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_19, Buffer: d6f20b30, Buffer Size: 0, Element: 3
+[2019.01.15-03.03.32:852][518]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_19, Buffer: d6f20b30, Buffer Size: 0, Element: 4
+[2019.01.15-03.03.32:852][518]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_19, Buffer: d6f20b30, Buffer Size: 0, Element: 5
+[2019.01.15-03.03.32:852][518]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_19' invalid (160 verts, 0 indices).
+[2019.01.15-03.03.32:852][518]LogPhysics: Warning: Attempt to build physics data for /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_19.BodySetup_0 when we are unable to.
+[2019.01.15-03.04.08:141][324]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.04.21:790][678]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.04.39:205][125]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.05.20:776][729]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.05.27:716][880]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.15-03.05.27:904][880]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_whitebox_inclass_Auto1A6CA7B1F4E4199B549BFFBA6A8558459.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/Autosaves/Game/KA_whitebox_inclass_Auto1.umap'
+[2019.01.15-03.05.27:908][880]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_whitebox_inclass' took 0.141
+[2019.01.15-03.05.27:908][880]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.141
+[2019.01.15-03.05.58:713][627]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.06.31:644][437]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.06.40:765][646]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.06.53:544][969]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.06.57:988][ 69]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.07.09:984][305]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.07.20:474][506]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.07.23:961][584]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.08.52:034][693]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.09.13:180][206]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.09.33:526][700]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.09.49:709][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.10.26:991][ 13]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.10.39:825][331]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.10.41:720][376]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.10.53:496][550]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.15-03.10.54:926][631]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.15-03.10.55:214][631]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_whitebox_inclass870EA4F640A00F05ED3FF3A14B10985F.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_whitebox_inclass.umap'
+[2019.01.15-03.10.55:255][631]LogFileHelpers: Saving map 'KA_whitebox_inclass' took 0.316
+[2019.01.15-03.11.36:179][783]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.11.51:174][138]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.15-03.12.03:089][433]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.12.07:651][536]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.15-03.12.30:806][121]Cmd: TRANSACTION UNDO
+[2019.01.15-03.12.30:806][121]LogEditorTransaction: Undo Move Actors
+[2019.01.15-03.12.30:865][121]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_6.BrushComponent0) Component already registered.
+[2019.01.15-03.12.30:869][121]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_24.BrushComponent0) Component already registered.
+[2019.01.15-03.12.30:870][121]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_13.BrushComponent0) Component already registered.
+[2019.01.15-03.13.13:240][181]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.15-03.13.30:254][583]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.14.20:517][775]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.15.16:895][ 30]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.15.57:318][973]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.16.12:805][317]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.16.48:377][906]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.18.16:378][840]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_whitebox_inclassA43B4F974DF609CA0B2AA59FFC1FA5C3.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_whitebox_inclass.umap'
+[2019.01.15-03.18.16:418][840]LogFileHelpers: Saving map 'KA_whitebox_inclass' took 0.281
+[2019.01.15-03.18.16:487][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mi_wbSideWalk_ka" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_wbSideWalk_ka.uasset" SILENT=true
+[2019.01.15-03.18.16:506][840]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_wbSideWalk_ka680999B240FFF01455C3DA970E8CE0FD.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_wbSideWalk_ka.uasset'
+[2019.01.15-03.18.45:976][572]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.19.09:567][178]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.19.55:620][295]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.20.13:726][758]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.20.29:764][145]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.20.31:472][184]Cmd: TRANSACTION UNDO
+[2019.01.15-03.20.31:472][184]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-03.20.33:743][265]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.20.39:241][395]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.20.44:063][507]Cmd: TRANSACTION UNDO
+[2019.01.15-03.20.44:063][507]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-03.20.49:285][671]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.20.58:936][911]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.21.01:883][990]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.21.14:489][297]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.21.24:197][535]Cmd: TRANSACTION UNDO
+[2019.01.15-03.21.24:197][535]LogEditorTransaction: Undo Move Actors
+[2019.01.15-03.21.24:271][535]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_6.BrushComponent0) Component already registered.
+[2019.01.15-03.21.25:398][589]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.21.58:861][401]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.22.02:665][484]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.22.09:985][644]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.22.18:346][839]Cmd: TRANSACTION UNDO
+[2019.01.15-03.22.18:346][839]LogEditorTransaction: Undo Move Actors
+[2019.01.15-03.22.18:424][839]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_6.BrushComponent0) Component already registered.
+[2019.01.15-03.22.20:833][916]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.22.27:491][983]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.22.43:160][362]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.15-03.22.45:109][410]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.22.50:916][546]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.22.52:937][592]Cmd: TRANSACTION UNDO
+[2019.01.15-03.22.52:937][592]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-03.22.53:904][644]Cmd: TRANSACTION UNDO
+[2019.01.15-03.22.53:904][644]LogEditorTransaction: Undo Move Actors
+[2019.01.15-03.22.53:928][644]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_6.BrushComponent0) Component already registered.
+[2019.01.15-03.22.54:915][667]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.23.06:868][943]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.23.18:491][217]Cmd: TRANSACTION UNDO
+[2019.01.15-03.23.18:491][217]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-03.23.19:158][251]Cmd: TRANSACTION UNDO
+[2019.01.15-03.23.19:158][251]LogEditorTransaction: Undo Move Actors
+[2019.01.15-03.23.19:182][251]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_6.BrushComponent0) Component already registered.
+[2019.01.15-03.23.20:058][281]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.23.40:683][782]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.24.10:124][495]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.24.25:641][845]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.25.01:134][738]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.15-03.25.09:682][948]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.25.15:200][ 76]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.25.20:632][201]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.25.33:820][528]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.25.48:104][860]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.25.52:732][967]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.15-03.26.01:678][201]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.26.02:645][228]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.15-03.27.34:102][304]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.15-03.27.35:792][401]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.15-03.27.36:051][401]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_whitebox_inclass8A6933B54A51B5729805B084A99823E3.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_whitebox_inclass.umap'
+[2019.01.15-03.27.36:095][401]LogFileHelpers: Saving map 'KA_whitebox_inclass' took 0.295
+[2019.01.15-03.28.19:538][457]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.31.25:860][121]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.31.30:875][241]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.31.33:578][314]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2019.01.15-03.31.35:696][369]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.32.51:054][190]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.33.06:779][598]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.15-03.33.17:191][870]Cmd: TRANSACTION UNDO
+[2019.01.15-03.33.17:191][870]LogEditorTransaction: Undo Move Actors
+[2019.01.15-03.33.17:275][870]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_49.BrushComponent0) Component already registered.
+[2019.01.15-03.33.17:727][893]Cmd: TRANSACTION UNDO
+[2019.01.15-03.33.17:727][893]LogEditorTransaction: Undo Move Actors
+[2019.01.15-03.33.17:757][893]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_49.BrushComponent0) Component already registered.
+[2019.01.15-03.33.18:434][925]Cmd: TRANSACTION UNDO
+[2019.01.15-03.33.18:434][925]LogEditorTransaction: Undo Edit Z
+[2019.01.15-03.33.18:515][925]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_49.BrushComponent0) Component already registered.
+[2019.01.15-03.33.18:515][925]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_37.BrushComponent0) Component already registered.
+[2019.01.15-03.34.00:456][999]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.34.53:358][589]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.34.55:694][645]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.35.00:250][755]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.35.10:104][ 12]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.35.36:051][578]Cmd: TRANSACTION UNDO
+[2019.01.15-03.35.36:051][578]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-03.35.37:832][652]Cmd: TRANSACTION UNDO
+[2019.01.15-03.35.37:832][652]LogEditorTransaction: Undo Regroup Ctrl+G
+[2019.01.15-03.35.38:997][681]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.35.44:904][822]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.36.00:261][217]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.36.03:683][299]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.36.10:960][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.36.48:778][429]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.15-03.36.51:599][501]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.37.30:188][427]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.37.43:516][779]Cmd: TRANSACTION UNDO
+[2019.01.15-03.37.43:516][779]LogEditorTransaction: Undo Move Actors
+[2019.01.15-03.37.43:605][779]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_18.BrushComponent0) Component already registered.
+[2019.01.15-03.37.43:606][779]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_29.BrushComponent0) Component already registered.
+[2019.01.15-03.38.12:973][557]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.38.52:034][532]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.39.00:443][734]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.39.22:759][314]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.39.32:279][555]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.39.39:244][734]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.39.43:261][836]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.40.24:710][271]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_whitebox_inclass_Auto2C312698443E26D7D34A0D9B903633AB3.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/Autosaves/Game/KA_whitebox_inclass_Auto2.umap'
+[2019.01.15-03.40.24:717][271]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_whitebox_inclass' took 0.399
+[2019.01.15-03.40.24:717][271]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.399
+[2019.01.15-03.40.26:886][279]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.15-03.40.28:611][366]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.15-03.40.28:897][366]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_whitebox_inclass05BF679F4EFFCD5468EF17B0CD215A43.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_whitebox_inclass.umap'
+[2019.01.15-03.40.28:942][366]LogFileHelpers: Saving map 'KA_whitebox_inclass' took 0.324
+[2019.01.15-03.42.18:130][686]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.42.23:856][808]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2019.01.15-03.42.27:054][892]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.42.53:678][609]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.43.17:520][224]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.44.26:065][498]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.44.32:618][636]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.44.43:553][910]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.44.57:253][274]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.45.05:277][459]Cmd: TRANSACTION UNDO
+[2019.01.15-03.45.05:278][459]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.15-03.45.06:998][534]Cmd: TRANSACTION UNDO
+[2019.01.15-03.45.06:998][534]LogEditorTransaction: Undo Edit Outer Radius
+[2019.01.15-03.45.07:078][534]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_20.BrushComponent0) Component already registered.
+[2019.01.15-03.45.08:313][567]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.45.21:528][874]Cmd: TRANSACTION UNDO
+[2019.01.15-03.45.21:528][874]LogEditorTransaction: Undo Set Location
+[2019.01.15-03.45.22:309][905]Cmd: TRANSACTION UNDO
+[2019.01.15-03.45.22:309][905]LogEditorTransaction: Undo Set Location
+[2019.01.15-03.45.22:793][923]Cmd: TRANSACTION UNDO
+[2019.01.15-03.45.22:793][923]LogEditorTransaction: Undo Edit Z
+[2019.01.15-03.45.22:873][923]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_20.BrushComponent0) Component already registered.
+[2019.01.15-03.45.23:276][934]Cmd: TRANSACTION UNDO
+[2019.01.15-03.45.23:276][934]LogEditorTransaction: Undo Set Location
+[2019.01.15-03.45.24:629][965]Cmd: TRANSACTION UNDO
+[2019.01.15-03.45.24:629][965]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-03.45.26:205][  4]Cmd: TRANSACTION UNDO
+[2019.01.15-03.45.26:205][  4]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-03.45.27:223][ 31]Cmd: TRANSACTION UNDO
+[2019.01.15-03.45.27:224][ 31]LogEditorTransaction: Undo Set Location
+[2019.01.15-03.45.40:621][376]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.45.44:980][458]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.46.18:994][255]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.47.02:063][297]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.47.18:960][727]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.15-03.47.21:612][795]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.48.38:693][747]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.48.49:002][  3]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.15-03.48.50:654][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.15-03.48.50:927][ 97]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_whitebox_inclassDDB9565D44E8A3B26575CA8200CD80AD.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_whitebox_inclass.umap'
+[2019.01.15-03.48.50:970][ 97]LogFileHelpers: Saving map 'KA_whitebox_inclass' took 0.309
+[2019.01.15-03.48.52:449][137]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.50.21:352][505]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.15-03.50.24:322][581]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.15-03.50.59:935][504]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.51.03:516][571]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.51.07:168][656]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.15-03.51.08:323][685]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.51.17:450][913]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.51.20:095][976]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.51.32:657][294]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.51.40:156][473]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.51.54:747][843]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.51.58:587][942]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.52.00:429][984]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.52.06:407][114]Cmd: TRANSACTION UNDO
+[2019.01.15-03.52.06:407][114]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.15-03.52.08:724][200]Cmd: TRANSACTION UNDO
+[2019.01.15-03.52.08:724][200]LogEditorTransaction: Undo Move Actors
+[2019.01.15-03.52.08:834][200]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_4.BrushComponent0) Component already registered.
+[2019.01.15-03.52.10:085][230]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.52.41:874][ 10]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.15-03.52.49:047][194]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.52.56:179][358]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.53.04:828][562]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.53.18:459][882]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.15-03.55.30:242][849]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.55.36:105][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.55.38:812][119]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2019.01.15-03.55.40:566][165]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.55.55:575][551]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.56.17:111][107]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.56.51:105][ 59]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.57.03:413][380]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.57.04:213][399]Cmd: TRANSACTION UNDO
+[2019.01.15-03.57.04:213][399]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-03.57.05:015][440]Cmd: TRANSACTION UNDO
+[2019.01.15-03.57.05:015][440]LogEditorTransaction: Undo Move Actors
+[2019.01.15-03.57.05:057][440]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_sub_3.BrushComponent0) Component already registered.
+[2019.01.15-03.57.40:453][364]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.15-03.58.23:115][486]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.59.22:514][ 36]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-03.59.42:313][516]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.59.50:225][726]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-03.59.57:449][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.01.00:265][526]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.01.26:956][215]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.01.30:499][307]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-04.02.26:192][688]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.15-04.02.26:514][688]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_whitebox_inclass_Auto37B5E54CA47D84964E626AFBF6D63C2BD.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/Autosaves/Game/KA_whitebox_inclass_Auto3.umap'
+[2019.01.15-04.02.26:519][688]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_whitebox_inclass' took 0.266
+[2019.01.15-04.02.26:519][688]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.266
+[2019.01.15-04.04.34:020][768]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.04.37:754][865]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.15-04.05.22:082][ 19]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.05.23:086][ 47]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.15-04.05.55:640][888]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.05.58:157][966]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.15-04.06.39:980][613]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-04.08.39:452][298]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.08.46:305][476]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.11.05:516][692]Cmd: TRANSACTION UNDO
+[2019.01.15-04.11.05:516][692]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.11.05:660][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_21.BrushComponent0) Component already registered.
+[2019.01.15-04.11.05:662][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_5.BrushComponent0) Component already registered.
+[2019.01.15-04.11.05:677][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_SideW_3.BrushComponent0) Component already registered.
+[2019.01.15-04.11.05:684][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_34.BrushComponent0) Component already registered.
+[2019.01.15-04.11.07:232][767]Cmd: TRANSACTION UNDO
+[2019.01.15-04.11.07:232][767]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.11.07:338][767]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_37.BrushComponent0) Component already registered.
+[2019.01.15-04.11.07:340][767]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_26.BrushComponent0) Component already registered.
+[2019.01.15-04.11.07:341][767]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_6.BrushComponent0) Component already registered.
+[2019.01.15-04.11.07:341][767]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_11.BrushComponent0) Component already registered.
+[2019.01.15-04.11.07:346][767]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_17.BrushComponent0) Component already registered.
+[2019.01.15-04.11.07:348][767]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_sub_3.BrushComponent0) Component already registered.
+[2019.01.15-04.11.07:350][767]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_54.BrushComponent0) Component already registered.
+[2019.01.15-04.11.07:350][767]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_3.BrushComponent0) Component already registered.
+[2019.01.15-04.11.12:077][888]Cmd: TRANSACTION UNDO
+[2019.01.15-04.11.12:077][888]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.15-04.11.30:677][390]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.11.40:080][707]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_whitebox_inclass6909C7B54D35DDB4214A9C95AC96F955.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_whitebox_inclass.umap'
+[2019.01.15-04.11.40:136][707]LogFileHelpers: Saving map 'KA_whitebox_inclass' took 0.415
+[2019.01.15-04.11.45:837][855]Cmd: TRANSACTION UNDO
+[2019.01.15-04.11.45:838][855]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.11.45:925][855]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_18.BrushComponent0) Component already registered.
+[2019.01.15-04.11.45:931][855]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_26.BrushComponent0) Component already registered.
+[2019.01.15-04.11.55:643][149]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-04.13.39:529][869]Cmd: TRANSACTION UNDO
+[2019.01.15-04.13.39:529][869]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.13.39:668][869]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_28.BrushComponent0) Component already registered.
+[2019.01.15-04.13.39:669][869]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_37.BrushComponent0) Component already registered.
+[2019.01.15-04.13.39:680][869]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_7.BrushComponent0) Component already registered.
+[2019.01.15-04.13.39:684][869]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.13.39:686][869]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_30.BrushComponent0) Component already registered.
+[2019.01.15-04.13.39:687][869]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_36.BrushComponent0) Component already registered.
+[2019.01.15-04.13.41:625][942]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.14.38:876][422]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.14.48:030][663]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-04.14.52:592][774]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.15.20:561][502]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.16.01:907][590]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.16.53:487][794]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-04.17.34:982][792]Cmd: TRANSACTION UNDO
+[2019.01.15-04.17.34:982][792]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.17.40:094][947]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.18.24:124][756]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-04.18.32:111][947]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.32:111][947]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-04.18.33:115][ 20]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.33:115][ 20]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.18.33:155][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.33:162][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.33:162][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.33:700][ 34]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.33:700][ 34]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.18.33:786][ 34]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.33:792][ 34]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.33:793][ 34]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.34:490][ 53]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.34:490][ 53]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.18.34:623][ 53]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.34:644][ 53]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.34:646][ 53]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.34:746][ 54]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.34:746][ 54]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.18.34:796][ 54]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.34:802][ 54]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.34:802][ 54]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.34:971][ 59]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.34:971][ 59]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-04.18.35:203][ 64]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.35:203][ 64]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-04.18.35:483][ 71]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.35:483][ 71]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-04.18.35:758][ 78]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.35:758][ 78]LogEditorTransaction: Undo Set Location
+[2019.01.15-04.18.35:846][ 78]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.35:852][ 78]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.35:852][ 78]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.36:105][ 85]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.36:105][ 85]LogEditorTransaction: Undo Set Location
+[2019.01.15-04.18.36:235][ 85]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.36:257][ 85]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.36:260][ 85]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.36:392][ 86]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.36:392][ 86]LogEditorTransaction: Undo Set Location
+[2019.01.15-04.18.36:499][ 86]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.36:518][ 86]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.36:520][ 86]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.36:579][ 86]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.36:579][ 86]LogEditorTransaction: Undo Set Location
+[2019.01.15-04.18.36:634][ 86]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.36:644][ 86]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.36:646][ 86]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.36:821][ 91]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.36:821][ 91]LogEditorTransaction: Undo Set Location
+[2019.01.15-04.18.36:912][ 91]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.36:918][ 91]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.36:919][ 91]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.37:031][ 94]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.37:031][ 94]LogEditorTransaction: Undo Set Location
+[2019.01.15-04.18.37:094][ 94]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.37:101][ 94]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.37:102][ 94]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.37:301][100]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.37:303][100]LogEditorTransaction: Undo Set Location
+[2019.01.15-04.18.37:389][100]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.37:399][100]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.37:400][100]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.37:511][103]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.37:511][103]LogEditorTransaction: Undo Set Location
+[2019.01.15-04.18.37:578][103]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.37:584][103]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.37:585][103]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.37:749][108]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.37:749][108]LogEditorTransaction: Undo Set Location
+[2019.01.15-04.18.37:834][108]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.37:842][108]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.37:843][108]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.37:952][111]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.37:952][111]LogEditorTransaction: Undo Set Location
+[2019.01.15-04.18.38:018][111]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.38:025][111]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.38:026][111]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.38:228][117]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.38:228][117]LogEditorTransaction: Undo Set Location
+[2019.01.15-04.18.38:317][117]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.38:323][117]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.38:325][117]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.38:492][122]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.38:492][122]LogEditorTransaction: Undo Set Location
+[2019.01.15-04.18.38:580][122]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.38:586][122]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.38:587][122]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.38:717][126]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.38:717][126]LogEditorTransaction: Undo Set Location
+[2019.01.15-04.18.38:797][126]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.38:803][126]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.38:804][126]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.38:971][131]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.38:971][131]LogEditorTransaction: Undo Set Location
+[2019.01.15-04.18.39:059][131]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.39:065][131]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.39:066][131]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.39:266][137]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.39:266][137]LogEditorTransaction: Undo Set Location
+[2019.01.15-04.18.39:403][137]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.39:423][137]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.39:425][137]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.39:553][138]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.39:553][138]LogEditorTransaction: Undo Set Location
+[2019.01.15-04.18.39:667][138]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.39:687][138]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.39:690][138]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.39:761][138]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.39:762][138]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.18.39:826][138]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.39:845][138]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.39:846][138]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.40:039][140]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.40:040][140]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.18.40:144][140]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.40:158][140]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.40:160][140]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.40:289][143]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.40:289][143]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.18.40:388][143]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.40:409][143]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.40:411][143]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.40:572][146]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.40:572][146]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.18.40:659][146]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.40:676][146]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.40:678][146]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.40:820][149]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.40:820][149]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.18.40:901][149]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.40:908][149]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.40:909][149]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.41:078][154]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.41:078][154]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.18.41:166][154]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.41:176][154]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.41:177][154]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.41:277][157]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.41:277][157]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.18.41:350][157]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.41:357][157]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.41:358][157]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.41:597][164]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.41:597][164]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-04.18.41:842][170]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.41:842][170]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-04.18.42:329][183]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.42:329][183]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-04.18.42:856][196]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.42:856][196]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-04.18.43:466][212]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.43:466][212]LogEditorTransaction: Undo Set Location
+[2019.01.15-04.18.43:550][212]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.43:557][212]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.43:558][212]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.43:899][221]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.43:899][221]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.18.43:989][221]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.43:995][221]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.43:996][221]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.44:250][228]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.44:250][228]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.18.44:388][228]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.44:398][228]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.44:399][228]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.44:553][231]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.44:554][231]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.18.44:634][231]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.44:644][231]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.44:645][231]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.44:794][235]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.44:794][235]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.18.44:882][235]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.44:889][235]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.44:889][235]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.45:093][241]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.45:093][241]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.18.45:186][241]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.45:192][241]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.45:193][241]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.45:394][247]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.45:394][247]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.18.45:533][247]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.45:546][247]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.45:547][247]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.45:786][253]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.45:786][253]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.18.45:939][253]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.45:960][253]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.45:964][253]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.46:264][260]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.46:264][260]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.18.46:350][260]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.46:360][260]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.46:361][260]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.46:761][271]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.46:762][271]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.18.46:901][271]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.46:920][271]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.46:922][271]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.47:208][278]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.47:209][278]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.18.47:311][278]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.47:322][278]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.47:323][278]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.47:537][284]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.47:537][284]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-04.18.48:412][307]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.48:412][307]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-04.18.51:039][373]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.51:039][373]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-04.18.51:721][391]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.51:722][391]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-04.18.53:331][431]Cmd: TRANSACTION REDO
+[2019.01.15-04.18.53:331][431]LogEditorTransaction: Redo Clicking on Actors
+[2019.01.15-04.18.53:975][447]Cmd: TRANSACTION REDO
+[2019.01.15-04.18.53:976][447]LogEditorTransaction: Redo Clicking on Actors
+[2019.01.15-04.18.54:493][460]Cmd: TRANSACTION REDO
+[2019.01.15-04.18.54:493][460]LogEditorTransaction: Redo Clicking on Actors
+[2019.01.15-04.18.54:990][473]Cmd: TRANSACTION REDO
+[2019.01.15-04.18.54:990][473]LogEditorTransaction: Redo Clicking on Actors
+[2019.01.15-04.18.55:496][486]Cmd: TRANSACTION REDO
+[2019.01.15-04.18.55:496][486]LogEditorTransaction: Redo Move Actors
+[2019.01.15-04.18.56:326][506]Cmd: TRANSACTION REDO
+[2019.01.15-04.18.56:326][506]LogEditorTransaction: Redo Move Actors
+[2019.01.15-04.18.57:826][543]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.57:826][543]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.18.57:908][543]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.57:916][543]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.57:916][543]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.58:054][545]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.58:054][545]LogEditorTransaction: Undo Move Actors
+[2019.01.15-04.18.58:092][545]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.15-04.18.58:098][545]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.15-04.18.58:099][545]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.15-04.18.58:282][550]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.58:282][550]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-04.18.58:637][559]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.58:637][559]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-04.18.59:321][577]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.59:322][577]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-04.18.59:969][594]Cmd: TRANSACTION UNDO
+[2019.01.15-04.18.59:969][594]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-04.19.01:139][623]Cmd: TRANSACTION UNDO
+[2019.01.15-04.19.01:139][623]LogEditorTransaction: Undo Regroup Ctrl+G
+[2019.01.15-04.19.04:840][814]Cmd: TRANSACTION REDO
+[2019.01.15-04.19.04:841][814]LogEditorTransaction: Redo Regroup Ctrl+G
+[2019.01.15-04.19.07:472][ 20]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-04.19.11:022][320]Cmd: TRANSACTION UNDO
+[2019.01.15-04.19.11:022][320]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.15-04.19.12:790][459]Cmd: TRANSACTION UNDO
+[2019.01.15-04.19.12:790][459]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-04.19.13:193][485]Cmd: TRANSACTION UNDO
+[2019.01.15-04.19.13:194][485]LogEditorTransaction: Undo Regroup Ctrl+G
+[2019.01.15-04.19.14:341][574]Cmd: TRANSACTION UNDO
+[2019.01.15-04.19.14:341][574]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.15-04.19.16:875][760]Cmd: TRANSACTION UNDO
+[2019.01.15-04.19.16:875][760]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.15-04.19.17:575][819]Cmd: TRANSACTION UNDO
+[2019.01.15-04.19.17:575][819]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-04.19.20:411][ 78]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-04.19.21:897][180]Cmd: TRANSACTION UNDO
+[2019.01.15-04.19.21:897][180]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.15-04.19.22:316][201]Cmd: TRANSACTION UNDO
+[2019.01.15-04.19.22:317][201]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.15-04.19.28:719][793]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.19.36:214][546]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-04.19.40:896][929]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.20.33:844][968]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-04.20.41:313][750]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.15-04.20.44:926][ 49]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.15-04.20.48:973][249]LogSlate: Window 'Save Content' being destroyed
+[2019.01.15-04.20.48:983][249]Cmd: MAP LOAD FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_whitebox_inclass.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.15-04.20.48:991][249]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.15-04.20.49:003][249]LightingResults: New page: Lighting Build
+[2019.01.15-04.20.49:004][249]LoadErrors: New page: Loading map: KA_whitebox_inclass.umap
+[2019.01.15-04.20.49:008][249]MapCheck: New page: Map Check
+[2019.01.15-04.20.49:008][249]LightingResults: New page: Lighting Build
+[2019.01.15-04.20.49:099][249]LogAIModule: Creating AISystem for world KA_whitebox_inclass
+[2019.01.15-04.20.49:118][249]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.15-04.20.49:194][249]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.15-04.20.49:279][249]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 85.851ms to complete.
+[2019.01.15-04.20.49:279][249]LogFileHelpers: Loading map 'KA_whitebox_inclass' took 0.300
+[2019.01.15-04.20.49:281][249]LogSlate: Window 'Open Level' being destroyed
+[2019.01.15-04.21.05:672][722]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.21.23:181][158]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-04.21.35:907][216]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.21.46:497][919]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.15-04.21.49:213][ 58]Cmd: TRANSACTION UNDO
+[2019.01.15-04.21.49:214][ 58]LogEditorTransaction: Undo Brush Add
+[2019.01.15-04.21.50:611][113]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.21.52:910][269]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-04.21.58:121][417]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.21.58:966][439]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.15-04.22.13:659][504]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.22.16:835][732]Cmd: TRANSACTION UNDO
+[2019.01.15-04.22.16:835][732]LogEditorTransaction: Undo Create Actors
+[2019.01.15-04.22.16:847][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 0
+[2019.01.15-04.22.16:847][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 1
+[2019.01.15-04.22.16:847][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 2
+[2019.01.15-04.22.16:847][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 3
+[2019.01.15-04.22.16:847][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 4
+[2019.01.15-04.22.16:847][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 5
+[2019.01.15-04.22.16:847][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 6
+[2019.01.15-04.22.16:847][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 7
+[2019.01.15-04.22.16:847][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 8
+[2019.01.15-04.22.16:847][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 9
+[2019.01.15-04.22.16:847][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 10
+[2019.01.15-04.22.16:848][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 11
+[2019.01.15-04.22.16:848][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 12
+[2019.01.15-04.22.16:848][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 13
+[2019.01.15-04.22.16:848][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 14
+[2019.01.15-04.22.16:848][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 15
+[2019.01.15-04.22.16:848][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 16
+[2019.01.15-04.22.16:848][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 17
+[2019.01.15-04.22.16:849][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 18
+[2019.01.15-04.22.16:849][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 19
+[2019.01.15-04.22.16:849][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 20
+[2019.01.15-04.22.16:849][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 21
+[2019.01.15-04.22.16:849][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 22
+[2019.01.15-04.22.16:849][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 23
+[2019.01.15-04.22.16:849][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 24
+[2019.01.15-04.22.16:849][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 25
+[2019.01.15-04.22.16:849][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 26
+[2019.01.15-04.22.16:849][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 27
+[2019.01.15-04.22.16:849][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 28
+[2019.01.15-04.22.16:849][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 29
+[2019.01.15-04.22.16:850][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 30
+[2019.01.15-04.22.16:850][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 31
+[2019.01.15-04.22.16:850][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 32
+[2019.01.15-04.22.16:850][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 33
+[2019.01.15-04.22.16:850][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 34
+[2019.01.15-04.22.16:850][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 35
+[2019.01.15-04.22.16:850][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 36
+[2019.01.15-04.22.16:850][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 37
+[2019.01.15-04.22.16:850][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 38
+[2019.01.15-04.22.16:850][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 39
+[2019.01.15-04.22.16:850][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 40
+[2019.01.15-04.22.16:850][732]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 41
+[2019.01.15-04.22.16:850][732]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5' invalid (1932 verts, 0 indices).
+[2019.01.15-04.22.16:851][732]LogPhysics: Warning: Attempt to build physics data for /Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.ModelComponent_5.BodySetup_0 when we are unable to.
+[2019.01.15-04.22.18:123][809]Cmd: TRANSACTION UNDO
+[2019.01.15-04.22.18:123][809]LogEditorTransaction: Undo Brush Add
+[2019.01.15-04.22.20:397][943]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.22.21:076][948]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/mi_wbSideWalk_ka.mi_wbSideWalk_ka
+[2019.01.15-04.22.24:678][ 91]LogSlate: Window 'mi_wbSideWalk_ka' being destroyed
+[2019.01.15-04.22.24:691][ 91]LogSlate: Window 'mi_wbSideWalk_ka' being destroyed
+[2019.01.15-04.22.26:294][229]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.22.27:622][271]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.15-04.22.29:110][417]Cmd: TRANSACTION UNDO
+[2019.01.15-04.22.29:110][417]LogEditorTransaction: Undo Brush Add
+[2019.01.15-04.22.31:102][519]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.22.32:775][566]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.15-04.22.34:278][711]Cmd: TRANSACTION UNDO
+[2019.01.15-04.22.34:278][711]LogEditorTransaction: Undo Brush Add
+[2019.01.15-04.22.35:667][726]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.22.37:193][795]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.15-04.22.42:302][229]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.22.58:914][614]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-04.27.47:181][ 85]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-04.31.12:174][295]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.15-04.31.12:405][295]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_whitebox_inclass_Auto4D0E7BD784BF930378552A48B6065D354.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/Autosaves/Game/KA_whitebox_inclass_Auto4.umap'
+[2019.01.15-04.31.12:409][295]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_whitebox_inclass' took 0.212
+[2019.01.15-04.31.12:409][295]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.212
+[2019.01.15-05.05.15:722][741]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-05.05.40:133][177]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.15-05.06.00:455][ 43]Cmd: TRANSACTION UNDO
+[2019.01.15-05.06.00:455][ 43]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.15-05.06.07:342][555]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-05.06.45:245][230]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-05.06.54:594][133]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-05.07.02:715][856]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-05.07.10:581][647]Cmd: TRANSACTION UNDO
+[2019.01.15-05.07.10:582][647]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.15-05.07.11:279][686]Cmd: TRANSACTION UNDO
+[2019.01.15-05.07.11:279][686]LogEditorTransaction: Undo Set Location
+[2019.01.15-05.07.11:322][686]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_29.BrushComponent0) Component already registered.
+[2019.01.15-05.07.11:327][686]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_16.BrushComponent0) Component already registered.
+[2019.01.15-05.07.11:327][686]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_11.BrushComponent0) Component already registered.
+[2019.01.15-05.07.11:330][686]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_34.BrushComponent0) Component already registered.
+[2019.01.15-05.07.12:032][743]Cmd: TRANSACTION UNDO
+[2019.01.15-05.07.12:032][743]LogEditorTransaction: Undo Move Actors
+[2019.01.15-05.07.12:074][743]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_21.BrushComponent0) Component already registered.
+[2019.01.15-05.07.12:075][743]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_5.BrushComponent0) Component already registered.
+[2019.01.15-05.07.12:082][743]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_34.BrushComponent0) Component already registered.
+[2019.01.15-05.07.12:537][776]Cmd: TRANSACTION UNDO
+[2019.01.15-05.07.12:537][776]LogEditorTransaction: Undo Set Location
+[2019.01.15-05.07.12:575][776]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_29.BrushComponent0) Component already registered.
+[2019.01.15-05.07.12:580][776]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_16.BrushComponent0) Component already registered.
+[2019.01.15-05.07.12:581][776]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_11.BrushComponent0) Component already registered.
+[2019.01.15-05.07.12:584][776]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_34.BrushComponent0) Component already registered.
+[2019.01.15-05.07.13:016][807]Cmd: TRANSACTION UNDO
+[2019.01.15-05.07.13:016][807]LogEditorTransaction: Undo Move Actors
+[2019.01.15-05.07.13:066][807]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_21.BrushComponent0) Component already registered.
+[2019.01.15-05.07.13:066][807]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_5.BrushComponent0) Component already registered.
+[2019.01.15-05.07.13:074][807]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_34.BrushComponent0) Component already registered.
+[2019.01.15-05.07.13:573][846]Cmd: TRANSACTION UNDO
+[2019.01.15-05.07.13:573][846]LogEditorTransaction: Undo Set Location
+[2019.01.15-05.07.13:615][846]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_29.BrushComponent0) Component already registered.
+[2019.01.15-05.07.13:620][846]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_16.BrushComponent0) Component already registered.
+[2019.01.15-05.07.13:620][846]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_11.BrushComponent0) Component already registered.
+[2019.01.15-05.07.13:623][846]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_34.BrushComponent0) Component already registered.
+[2019.01.15-05.07.14:257][897]Cmd: TRANSACTION UNDO
+[2019.01.15-05.07.14:257][897]LogEditorTransaction: Undo Move Actors
+[2019.01.15-05.07.14:298][897]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_29.BrushComponent0) Component already registered.
+[2019.01.15-05.07.14:303][897]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_16.BrushComponent0) Component already registered.
+[2019.01.15-05.07.14:303][897]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_11.BrushComponent0) Component already registered.
+[2019.01.15-05.07.14:306][897]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_34.BrushComponent0) Component already registered.
+[2019.01.15-05.07.14:862][940]Cmd: TRANSACTION UNDO
+[2019.01.15-05.07.14:862][940]LogEditorTransaction: Undo Move Actors
+[2019.01.15-05.07.14:903][940]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_29.BrushComponent0) Component already registered.
+[2019.01.15-05.07.14:908][940]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_16.BrushComponent0) Component already registered.
+[2019.01.15-05.07.14:909][940]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_11.BrushComponent0) Component already registered.
+[2019.01.15-05.07.14:912][940]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_34.BrushComponent0) Component already registered.
+[2019.01.15-05.07.15:423][980]Cmd: TRANSACTION UNDO
+[2019.01.15-05.07.15:423][980]LogEditorTransaction: Undo Move Actors
+[2019.01.15-05.07.15:462][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_29.BrushComponent0) Component already registered.
+[2019.01.15-05.07.15:469][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_16.BrushComponent0) Component already registered.
+[2019.01.15-05.07.15:469][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_11.BrushComponent0) Component already registered.
+[2019.01.15-05.07.15:474][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_34.BrushComponent0) Component already registered.
+[2019.01.15-05.07.16:002][ 20]Cmd: TRANSACTION UNDO
+[2019.01.15-05.07.16:002][ 20]LogEditorTransaction: Undo Move Actors
+[2019.01.15-05.07.16:042][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_29.BrushComponent0) Component already registered.
+[2019.01.15-05.07.16:047][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_16.BrushComponent0) Component already registered.
+[2019.01.15-05.07.16:047][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_11.BrushComponent0) Component already registered.
+[2019.01.15-05.07.16:050][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_34.BrushComponent0) Component already registered.
+[2019.01.15-05.07.16:551][ 60]Cmd: TRANSACTION UNDO
+[2019.01.15-05.07.16:551][ 60]LogEditorTransaction: Undo Move Actors
+[2019.01.15-05.07.16:609][ 60]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_29.BrushComponent0) Component already registered.
+[2019.01.15-05.07.16:616][ 60]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_16.BrushComponent0) Component already registered.
+[2019.01.15-05.07.16:616][ 60]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_11.BrushComponent0) Component already registered.
+[2019.01.15-05.07.16:619][ 60]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_34.BrushComponent0) Component already registered.
+[2019.01.15-05.07.17:105][ 98]Cmd: TRANSACTION UNDO
+[2019.01.15-05.07.17:105][ 98]LogEditorTransaction: Undo Move Actors
+[2019.01.15-05.07.17:147][ 98]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_21.BrushComponent0) Component already registered.
+[2019.01.15-05.07.17:148][ 98]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_5.BrushComponent0) Component already registered.
+[2019.01.15-05.07.17:158][ 98]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_34.BrushComponent0) Component already registered.
+[2019.01.15-05.07.40:210][522]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-05.07.42:657][704]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_whitebox_inclass_Auto5D53917604974792D117FA385299A3B40.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/Autosaves/Game/KA_whitebox_inclass_Auto5.umap'
+[2019.01.15-05.07.42:665][704]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_whitebox_inclass' took 0.272
+[2019.01.15-05.07.42:665][704]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.272
+[2019.01.15-05.07.47:994][979]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-05.08.46:395][769]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-05.08.59:374][464]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-05.09.20:967][621]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-05.09.36:225][266]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-05.09.50:498][796]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.15-05.09.54:613][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-05.09.55:866][ 84]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.15-05.10.12:809][899]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-05.10.30:854][551]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-05.11.03:195][196]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-05.11.08:938][488]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-05.11.17:921][995]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-05.11.19:862][100]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-05.11.38:661][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.15-05.12.08:421][538]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-05.12.19:130][146]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.15-05.12.20:193][202]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.15-05.12.20:522][202]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_whitebox_inclassED71C65B47E404ABAD3439AFE86B7663.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_whitebox_inclass.umap'
+[2019.01.15-05.12.20:575][202]LogFileHelpers: Saving map 'KA_whitebox_inclass' took 0.372
+[2019.01.15-05.32.00:931][358]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.15-05.34.20:485][306]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.15-05.35.32:147][826]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.15-05.50.31:730][578]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.15-05.51.04:779][742]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.15-06.17.58:197][383]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.15-06.18.46:837][521]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.15-06.18.55:117][327]Cmd: TRANSACTION UNDO
+[2019.01.15-06.18.55:117][327]LogEditorTransaction: Undo Move Actors
+[2019.01.15-06.18.55:154][327]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_29.BrushComponent0) Component already registered.
+[2019.01.15-06.18.55:159][327]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_16.BrushComponent0) Component already registered.
+[2019.01.15-06.18.55:160][327]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_11.BrushComponent0) Component already registered.
+[2019.01.15-06.18.55:165][327]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_34.BrushComponent0) Component already registered.
+[2019.01.15-06.18.57:664][487]LogSlate: FSceneViewport::OnFocusLost() reason 2
