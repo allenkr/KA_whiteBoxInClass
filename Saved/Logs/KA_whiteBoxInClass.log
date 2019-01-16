@@ -1538,3 +1538,101 @@ LogInit: Object subsystem initialized
 [2019.01.16-16.07.57:723][714]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2019.01.16-16.08.01:666][714]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_whitebox_inclassC35FA4B64534C44E352433BBC416F082.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_whitebox_inclass.umap'
 [2019.01.16-16.08.01:719][714]LogFileHelpers: Saving map 'KA_whitebox_inclass' took 3.986
+[2019.01.16-16.09.14:085][274]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.10.58:327][313]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.11.19:096][320]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.11.42:578][476]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/mi_wbGrass_ka.mi_wbGrass_ka
+[2019.01.16-16.11.47:086][644]LogRenderer: Reallocating scene render targets to support 948x612 Format 10 NumSamples 1 (Frame:8).
+[2019.01.16-16.11.47:543][664]LogSlate: Window 'mi_wbGrass_ka*' being destroyed
+[2019.01.16-16.12.02:655][278]LogSlate: Window 'Color Picker' being destroyed
+[2019.01.16-16.12.08:882][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mi_wbGrass_ka" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_wbGrass_ka.uasset" SILENT=true
+[2019.01.16-16.12.09:294][618]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy mi_wbGrass_ka, compiling. 
+[2019.01.16-16.12.13:191][618]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.16-16.12.13:224][618]TextureStreamingBuild: Display: Compiling optional shaders took 4.196 seconds.
+[2019.01.16-16.12.13:342][618]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_wbGrass_ka8B96B4F14772C23123BFBDA2944B0A70.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_wbGrass_ka.uasset'
+[2019.01.16-16.12.15:817][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mi_wbGrass_ka" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_wbGrass_ka.uasset" SILENT=true
+[2019.01.16-16.12.15:863][701]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy mi_wbGrass_ka, compiling. 
+[2019.01.16-16.12.16:556][701]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.16-16.12.16:557][701]TextureStreamingBuild: Display: Compiling optional shaders took 0.701 seconds.
+[2019.01.16-16.12.16:605][701]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_wbGrass_kaE813130747079133B317E799634768CE.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_wbGrass_ka.uasset'
+[2019.01.16-16.12.49:674][491]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.16-16.12.51:639][592]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.13.41:177][301]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.13.57:710][ 39]Cmd: TRANSACTION UNDO
+[2019.01.16-16.13.57:710][ 39]LogEditorTransaction: Undo Apply Material to Surface
+[2019.01.16-16.14.09:406][544]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.14.17:057][920]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-16.15.13:570][494]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.15.29:227][230]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.15.52:208][461]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.15.57:176][731]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.16.03:087][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.16.38:589][641]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.17.06:684][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.17.17:268][576]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.18.31:842][393]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.19.54:852][144]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.20.24:223][361]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.20.25:843][437]Cmd: TRANSACTION UNDO
+[2019.01.16-16.20.25:843][437]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.16-16.20.26:379][458]Cmd: TRANSACTION UNDO
+[2019.01.16-16.20.26:379][458]LogEditorTransaction: Undo Move Actors
+[2019.01.16-16.20.27:195][490]Cmd: TRANSACTION UNDO
+[2019.01.16-16.20.27:195][490]LogEditorTransaction: Undo Move Actors
+[2019.01.16-16.20.43:619][208]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.22.03:205][334]Cmd: TRANSACTION UNDO
+[2019.01.16-16.22.03:206][334]LogEditorTransaction: Undo Move Actors
+[2019.01.16-16.22.08:585][559]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.22.12:445][560]LogSlate: Window 'Save Content' being destroyed
+[2019.01.16-16.22.15:649][811]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_whitebox_inclass2BEC8C99444222E3F8141DACD965D6B5.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_whitebox_inclass.umap'
+[2019.01.16-16.22.15:700][811]LogFileHelpers: Saving map 'KA_whitebox_inclass' took 0.382
+[2019.01.16-16.22.15:703][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mi_wbGrass_ka" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_wbGrass_ka.uasset" SILENT=true
+[2019.01.16-16.22.15:747][811]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy mi_wbGrass_ka, compiling. 
+[2019.01.16-16.22.16:223][811]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.16-16.22.16:224][811]TextureStreamingBuild: Display: Compiling optional shaders took 0.482 seconds.
+[2019.01.16-16.22.16:272][811]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_wbGrass_ka311E3C5D424EC87002FEC8BDB6CB797F.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_wbGrass_ka.uasset'
+[2019.01.16-16.22.35:639][971]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.22.49:261][748]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.23.00:381][603]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.23.09:056][187]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.23.22:221][211]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.24.51:681][816]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.24.53:116][951]Cmd: TRANSACTION UNDO
+[2019.01.16-16.24.53:116][951]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.16-16.25.08:726][  1]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.25.43:114][621]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-16.26.02:650][181]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.26.06:066][507]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.26.25:097][943]Cmd: TRANSACTION UNDO
+[2019.01.16-16.26.25:097][943]LogEditorTransaction: Undo Move Actors
+[2019.01.16-16.26.25:202][943]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_32.BrushComponent0) Component already registered.
+[2019.01.16-16.26.25:208][943]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_19.BrushComponent0) Component already registered.
+[2019.01.16-16.26.25:211][943]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_SideW_4.BrushComponent0) Component already registered.
+[2019.01.16-16.26.25:211][943]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_1.BrushComponent0) Component already registered.
+[2019.01.16-16.26.25:211][943]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_3.BrushComponent0) Component already registered.
+[2019.01.16-16.26.25:212][943]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2019.01.16-16.26.33:890][722]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.28.00:776][655]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.28.04:530][985]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.28.22:081][384]Cmd: TRANSACTION UNDO
+[2019.01.16-16.28.22:082][384]LogEditorTransaction: Undo Move Actors
+[2019.01.16-16.28.22:168][384]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_30.BrushComponent0) Component already registered.
+[2019.01.16-16.28.22:174][384]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_2.BrushComponent0) Component already registered.
+[2019.01.16-16.28.22:174][384]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_3.BrushComponent0) Component already registered.
+[2019.01.16-16.28.22:178][384]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.16-16.28.24:246][530]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.28.29:703][889]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.29.01:314][230]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.29.08:311][760]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.29.17:963][470]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.29.29:008][340]Cmd: TRANSACTION UNDO
+[2019.01.16-16.29.29:008][340]LogEditorTransaction: Undo Move Actors
+[2019.01.16-16.29.40:522][978]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-16.29.42:590][172]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-16.29.42:935][172]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_whitebox_inclassB90D697647D1ABC8FE4C708ED2B62E3F.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_whitebox_inclass.umap'
+[2019.01.16-16.29.43:033][172]LogFileHelpers: Saving map 'KA_whitebox_inclass' took 0.435
+[2019.01.16-16.29.43:039][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mi_wbGrass_ka" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_wbGrass_ka.uasset" SILENT=true
+[2019.01.16-16.29.43:123][172]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy mi_wbGrass_ka, compiling. 
+[2019.01.16-16.29.43:642][172]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.16-16.29.43:646][172]TextureStreamingBuild: Display: Compiling optional shaders took 0.527 seconds.
+[2019.01.16-16.29.43:767][172]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_wbGrass_kaBAE550A44516D88D7F905AB1BEE5AC0E.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_wbGrass_ka.uasset'
