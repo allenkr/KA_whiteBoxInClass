@@ -1636,3 +1636,386 @@ LogInit: Object subsystem initialized
 [2019.01.16-16.29.43:642][172]LogShaderCompilers: Display: Shaders left to compile 1
 [2019.01.16-16.29.43:646][172]TextureStreamingBuild: Display: Compiling optional shaders took 0.527 seconds.
 [2019.01.16-16.29.43:767][172]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_wbGrass_kaBAE550A44516D88D7F905AB1BEE5AC0E.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_wbGrass_ka.uasset'
+[2019.01.16-16.32.21:753][543]Cmd: TRANSACTION UNDO
+[2019.01.16-16.32.21:753][543]LogEditorTransaction: Undo Move Actors
+[2019.01.16-16.32.21:848][543]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_25.BrushComponent0) Component already registered.
+[2019.01.16-16.32.21:849][543]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_35.BrushComponent0) Component already registered.
+[2019.01.16-16.32.21:851][543]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_22.BrushComponent0) Component already registered.
+[2019.01.16-16.32.21:855][543]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_11.BrushComponent0) Component already registered.
+[2019.01.16-16.32.21:857][543]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_5.BrushComponent0) Component already registered.
+[2019.01.16-16.32.21:857][543]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_sub_3.BrushComponent0) Component already registered.
+[2019.01.16-16.32.21:859][543]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_3.BrushComponent0) Component already registered.
+[2019.01.16-16.33.14:180][957]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-16.36.11:738][536]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.36.13:526][716]Cmd: TRANSACTION UNDO
+[2019.01.16-16.36.13:526][716]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.16-16.36.14:148][750]Cmd: TRANSACTION UNDO
+[2019.01.16-16.36.14:149][750]LogEditorTransaction: Undo Move Actors
+[2019.01.16-16.36.14:260][750]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_16.BrushComponent0) Component already registered.
+[2019.01.16-16.36.14:261][750]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_50.BrushComponent0) Component already registered.
+[2019.01.16-16.36.14:261][750]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_55.BrushComponent0) Component already registered.
+[2019.01.16-16.36.14:270][750]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_12.BrushComponent0) Component already registered.
+[2019.01.16-16.36.14:271][750]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_10.BrushComponent0) Component already registered.
+[2019.01.16-16.36.14:271][750]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_17.BrushComponent0) Component already registered.
+[2019.01.16-16.36.14:272][750]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_11.BrushComponent0) Component already registered.
+[2019.01.16-16.36.14:272][750]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_73.BrushComponent0) Component already registered.
+[2019.01.16-16.36.14:273][750]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_52.BrushComponent0) Component already registered.
+[2019.01.16-16.36.30:430][ 58]Cmd: TRANSACTION UNDO
+[2019.01.16-16.36.30:430][ 58]LogEditorTransaction: Undo Move Actors
+[2019.01.16-16.36.30:580][ 58]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_58.BrushComponent0) Component already registered.
+[2019.01.16-16.36.37:711][614]Cmd: TRANSACTION UNDO
+[2019.01.16-16.36.37:712][614]LogEditorTransaction: Undo Move Actors
+[2019.01.16-16.36.37:880][614]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_16.BrushComponent0) Component already registered.
+[2019.01.16-16.36.37:882][614]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_58.BrushComponent0) Component already registered.
+[2019.01.16-16.36.37:886][614]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_3.BrushComponent0) Component already registered.
+[2019.01.16-16.36.37:887][614]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_4.BrushComponent0) Component already registered.
+[2019.01.16-16.36.37:890][614]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_5.BrushComponent0) Component already registered.
+[2019.01.16-16.36.37:891][614]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_SideW_2.BrushComponent0) Component already registered.
+[2019.01.16-16.36.55:027][316]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-16.36.56:312][424]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-16.36.56:727][424]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_whitebox_inclass9579618F4D0D82FCB4051F95912DDB4B.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_whitebox_inclass.umap'
+[2019.01.16-16.36.56:770][424]LogFileHelpers: Saving map 'KA_whitebox_inclass' took 0.449
+[2019.01.16-16.36.56:772][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mi_wbGrass_ka" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_wbGrass_ka.uasset" SILENT=true
+[2019.01.16-16.36.56:811][424]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy mi_wbGrass_ka, compiling. 
+[2019.01.16-16.36.57:309][424]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.16-16.36.57:314][424]TextureStreamingBuild: Display: Compiling optional shaders took 0.507 seconds.
+[2019.01.16-16.36.57:361][424]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_wbGrass_ka031D0D2744896B8299C9E78794535268.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_wbGrass_ka.uasset'
+[2019.01.16-16.37.40:614][331]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.38.44:624][619]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.16-16.38.50:786][977]Cmd: TRANSACTION UNDO
+[2019.01.16-16.38.50:786][977]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.16-16.39.26:754][124]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.40.14:309][652]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-16.40.27:259][689]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.40.53:801][180]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-16.40.55:357][316]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-16.40.55:964][316]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_whitebox_inclass775C6B3D48C0B4DF2F5469894D850B3A.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_whitebox_inclass.umap'
+[2019.01.16-16.40.56:004][316]LogFileHelpers: Saving map 'KA_whitebox_inclass' took 0.640
+[2019.01.16-16.40.56:006][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mi_wbGrass_ka" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_wbGrass_ka.uasset" SILENT=true
+[2019.01.16-16.40.56:039][316]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy mi_wbGrass_ka, compiling. 
+[2019.01.16-16.40.56:612][316]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.16-16.40.56:625][316]TextureStreamingBuild: Display: Compiling optional shaders took 0.591 seconds.
+[2019.01.16-16.40.56:665][316]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_wbGrass_kaEBE0797748B61A60E87C24B56A3B1E51.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_wbGrass_ka.uasset'
+[2019.01.16-16.41.05:584][944]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-16.50.17:416][ 97]Cmd: TRANSACTION UNDO
+[2019.01.16-16.50.17:417][ 97]LogEditorTransaction: Undo Move Actors
+[2019.01.16-16.50.17:670][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_16.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:672][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_50.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:673][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_81.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:673][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_82.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:674][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_78.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:674][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_79.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:676][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_24.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:678][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_64.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:678][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_65.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:679][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_67.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:681][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_6.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:681][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_4.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:682][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_3.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:683][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_24.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:699][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_140.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:701][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_8.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:701][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_1.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:702][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_5.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:702][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_6.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:703][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_44.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:703][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_30.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:705][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_32.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:706][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_49.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:710][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_109.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:710][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_110.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:711][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_95.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:711][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_96.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:715][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_134.BrushComponent0) Component already registered.
+[2019.01.16-16.50.17:718][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_44.BrushComponent0) Component already registered.
+[2019.01.16-16.50.39:057][530]Cmd: TRANSACTION UNDO
+[2019.01.16-16.50.39:057][530]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.16-16.50.40:103][583]Cmd: TRANSACTION UNDO
+[2019.01.16-16.50.40:103][583]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.16-16.50.46:617][113]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.52.10:332][199]Cmd: TRANSACTION UNDO
+[2019.01.16-16.52.10:332][199]LogEditorTransaction: Undo Move Actors
+[2019.01.16-16.52.10:577][199]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.16-16.52.10:583][199]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_16.BrushComponent0) Component already registered.
+[2019.01.16-16.52.10:584][199]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_5.BrushComponent0) Component already registered.
+[2019.01.16-16.52.10:609][199]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_130.BrushComponent0) Component already registered.
+[2019.01.16-16.52.10:611][199]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_145.BrushComponent0) Component already registered.
+[2019.01.16-16.52.10:618][199]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_63.BrushComponent0) Component already registered.
+[2019.01.16-16.52.10:625][199]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_38.BrushComponent0) Component already registered.
+[2019.01.16-16.52.27:468][564]Cmd: TRANSACTION UNDO
+[2019.01.16-16.52.27:468][564]LogEditorTransaction: Undo Move Actors
+[2019.01.16-16.52.27:729][564]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_3.BrushComponent0) Component already registered.
+[2019.01.16-16.52.27:736][564]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_1.BrushComponent0) Component already registered.
+[2019.01.16-16.52.27:737][564]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_6.BrushComponent0) Component already registered.
+[2019.01.16-16.52.27:739][564]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_48.BrushComponent0) Component already registered.
+[2019.01.16-16.52.27:755][564]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_41.BrushComponent0) Component already registered.
+[2019.01.16-16.52.27:758][564]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_49.BrushComponent0) Component already registered.
+[2019.01.16-16.52.27:760][564]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_24.BrushComponent0) Component already registered.
+[2019.01.16-16.52.27:765][564]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_18.BrushComponent0) Component already registered.
+[2019.01.16-16.52.27:766][564]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_116.BrushComponent0) Component already registered.
+[2019.01.16-16.52.27:768][564]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_35.BrushComponent0) Component already registered.
+[2019.01.16-16.52.48:693][256]Cmd: TRANSACTION UNDO
+[2019.01.16-16.52.48:693][256]LogEditorTransaction: Undo Move Actors
+[2019.01.16-16.52.48:891][256]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_SideW_1.BrushComponent0) Component already registered.
+[2019.01.16-16.52.48:893][256]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_16.BrushComponent0) Component already registered.
+[2019.01.16-16.52.48:896][256]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_10.BrushComponent0) Component already registered.
+[2019.01.16-16.52.48:897][256]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_55.BrushComponent0) Component already registered.
+[2019.01.16-16.52.48:901][256]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_120.BrushComponent0) Component already registered.
+[2019.01.16-16.52.48:918][256]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_41.BrushComponent0) Component already registered.
+[2019.01.16-16.52.48:922][256]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_85.BrushComponent0) Component already registered.
+[2019.01.16-16.52.48:926][256]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_17.BrushComponent0) Component already registered.
+[2019.01.16-16.52.48:926][256]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_70.BrushComponent0) Component already registered.
+[2019.01.16-16.52.48:927][256]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_22.BrushComponent0) Component already registered.
+[2019.01.16-16.52.48:929][256]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_34.BrushComponent0) Component already registered.
+[2019.01.16-16.53.12:063][ 87]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.53.28:399][202]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-16.53.32:456][614]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-16.53.33:367][614]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_whitebox_inclassC7A911FD4A064BAC0C20AAB0C3C75707.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_whitebox_inclass.umap'
+[2019.01.16-16.53.33:412][614]LogFileHelpers: Saving map 'KA_whitebox_inclass' took 0.950
+[2019.01.16-16.53.33:417][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mi_wbGrass_ka" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_wbGrass_ka.uasset" SILENT=true
+[2019.01.16-16.53.33:457][614]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy mi_wbGrass_ka, compiling. 
+[2019.01.16-16.53.34:005][614]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.16-16.53.34:023][614]TextureStreamingBuild: Display: Compiling optional shaders took 0.572 seconds.
+[2019.01.16-16.53.34:068][614]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_wbGrass_kaED4A70E64C2CFEA577A8C1824B86A606.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_wbGrass_ka.uasset'
+[2019.01.16-16.54.05:101][ 45]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.54.36:473][314]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.55.22:535][ 30]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-16.55.40:980][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.56.02:530][252]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.56.28:150][482]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.56.53:848][296]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.57.05:898][361]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.57.32:418][217]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.58.36:498][672]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.58.42:775][302]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.58.46:236][512]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.58.53:884][903]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.59.30:053][553]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.59.51:871][788]Cmd: TRANSACTION UNDO
+[2019.01.16-16.59.51:871][788]LogEditorTransaction: Undo Move Actors
+[2019.01.16-16.59.52:067][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_106.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:068][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_12.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:069][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_15.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:069][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_83.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:070][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_55.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:071][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_14.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:071][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_19.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:074][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_22.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:076][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_26.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:078][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_5.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:104][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_15.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:105][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_6.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:106][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_60.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:109][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_149.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:109][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_51.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:112][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_143.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:112][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_142.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:113][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_59.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:116][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_60.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:117][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_164.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:119][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_27.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:120][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_91.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:120][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_98.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:121][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_97.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:122][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_41.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:124][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_39.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:125][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_113.BrushComponent0) Component already registered.
+[2019.01.16-16.59.52:126][788]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_119.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:367][229]Cmd: TRANSACTION UNDO
+[2019.01.16-16.59.58:367][229]LogEditorTransaction: Undo Move Actors
+[2019.01.16-16.59.58:655][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_106.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:656][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_12.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:658][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_15.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:659][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_83.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:661][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_55.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:662][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_14.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:662][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_19.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:667][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_22.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:670][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_26.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:673][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_5.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:700][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_15.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:701][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_6.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:701][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_60.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:704][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_149.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:705][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_51.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:707][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_143.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:708][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_142.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:710][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_59.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:713][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_60.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:713][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_164.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:716][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_27.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:717][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_91.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:718][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_98.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:719][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_97.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:721][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_41.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:723][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_39.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:724][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_113.BrushComponent0) Component already registered.
+[2019.01.16-16.59.58:726][229]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_119.BrushComponent0) Component already registered.
+[2019.01.16-17.00.07:835][808]Cmd: TRANSACTION UNDO
+[2019.01.16-17.00.07:835][808]LogEditorTransaction: Undo Move Actors
+[2019.01.16-17.00.08:083][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_106.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:083][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_12.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:084][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_15.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:085][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_83.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:087][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_55.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:088][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_14.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:088][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_19.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:093][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_22.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:095][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_26.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:097][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_5.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:118][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_15.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:120][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_6.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:121][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_60.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:126][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_149.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:127][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_51.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:130][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_143.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:131][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_142.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:133][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_59.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:137][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_60.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:138][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_164.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:143][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_27.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:144][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_91.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:146][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_98.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:148][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_97.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:151][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_41.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:153][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_39.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:154][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_113.BrushComponent0) Component already registered.
+[2019.01.16-17.00.08:156][808]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_119.BrushComponent0) Component already registered.
+[2019.01.16-17.00.19:651][608]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-17.00.49:437][730]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-17.01.10:406][868]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-17.01.24:879][841]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-17.01.37:004][638]Cmd: TRANSACTION UNDO
+[2019.01.16-17.01.37:004][638]LogEditorTransaction: Undo Move Actors
+[2019.01.16-17.01.37:286][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_106.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:286][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_12.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:287][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_15.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:289][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_83.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:290][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_55.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:291][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_14.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:291][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_19.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:294][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_22.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:296][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_26.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:297][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_5.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:316][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_15.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:318][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_6.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:318][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_60.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:321][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_149.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:322][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_51.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:325][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_143.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:326][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_142.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:327][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_59.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:329][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_60.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:330][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_164.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:332][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_27.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:333][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_91.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:333][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_98.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:334][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_97.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:335][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_41.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:337][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_39.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:338][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_113.BrushComponent0) Component already registered.
+[2019.01.16-17.01.37:340][638]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_119.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:312][679]Cmd: TRANSACTION UNDO
+[2019.01.16-17.01.38:312][679]LogEditorTransaction: Undo Move Actors
+[2019.01.16-17.01.38:511][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_106.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:512][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_12.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:514][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_15.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:515][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_83.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:517][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_55.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:518][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_14.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:518][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_19.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:522][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_22.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:524][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_26.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:526][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_5.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:545][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_15.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:546][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_6.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:547][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_60.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:550][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_149.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:551][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_51.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:554][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_143.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:554][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_142.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:555][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_59.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:558][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_60.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:558][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_164.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:561][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_27.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:561][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_91.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:562][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_98.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:562][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_97.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:564][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_41.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:567][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_39.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:567][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_113.BrushComponent0) Component already registered.
+[2019.01.16-17.01.38:569][679]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_119.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:267][718]Cmd: TRANSACTION UNDO
+[2019.01.16-17.01.39:267][718]LogEditorTransaction: Undo Move Actors
+[2019.01.16-17.01.39:462][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_106.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:463][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_12.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:464][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_15.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:464][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_83.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:466][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_55.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:466][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_14.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:466][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_19.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:469][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_22.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:471][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_26.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:473][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_5.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:495][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_15.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:497][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_6.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:498][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_60.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:504][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_149.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:504][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_51.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:507][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_143.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:507][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_142.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:509][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_59.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:511][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_60.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:512][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_164.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:514][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_27.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:514][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_91.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:515][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_98.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:516][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_97.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:517][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_41.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:518][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_39.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:519][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_113.BrushComponent0) Component already registered.
+[2019.01.16-17.01.39:520][718]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_119.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:524][777]Cmd: TRANSACTION UNDO
+[2019.01.16-17.01.40:524][777]LogEditorTransaction: Undo Move Actors
+[2019.01.16-17.01.40:719][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_106.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:719][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_12.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:720][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_15.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:721][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_83.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:722][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_55.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:722][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_14.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:722][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_19.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:726][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_22.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:729][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_26.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:731][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_5.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:754][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_15.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:757][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_6.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:757][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_60.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:761][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_149.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:762][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_51.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:765][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_143.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:766][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_142.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:768][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_59.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:771][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_60.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:772][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_164.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:775][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_27.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:775][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_91.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:776][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_98.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:777][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_97.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:779][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.grass_Brush_41.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:781][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.SW_Brush_39.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:782][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_113.BrushComponent0) Component already registered.
+[2019.01.16-17.01.40:783][777]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_whitebox_inclass.KA_whitebox_inclass:PersistentLevel.Brush_st_119.BrushComponent0) Component already registered.
+[2019.01.16-17.01.44:978][941]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-17.02.44:742][674]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-17.03.30:011][993]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-17.03.33:434][258]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-17.03.39:660][764]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-17.03.40:574][764]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_whitebox_inclass7E0BD5DE41C031DD11C885A4036EDE57.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_whitebox_inclass.umap'
+[2019.01.16-17.03.40:708][764]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_whitebox_inclass_BuiltData59B0372F4A3EF6677155068A749DE15E.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_whitebox_inclass_BuiltData.uasset'
+[2019.01.16-17.03.41:916][863]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-17.03.43:310][980]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-17.03.43:320][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mi_wbGrass_ka" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_wbGrass_ka.uasset" SILENT=true
+[2019.01.16-17.03.43:364][980]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy mi_wbGrass_ka, compiling. 
+[2019.01.16-17.03.43:883][980]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.16-17.03.43:900][980]TextureStreamingBuild: Display: Compiling optional shaders took 0.541 seconds.
+[2019.01.16-17.03.43:944][980]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_wbGrass_ka2A34E4E34BBED793851DF9BEC923A0F3.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_wbGrass_ka.uasset'
