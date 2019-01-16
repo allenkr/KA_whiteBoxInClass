@@ -2042,3 +2042,9 @@ LogInit: Object subsystem initialized
 [2019.01.16-19.58.10:134][544]LogHttp: Warning: 0000022E83BB5A80: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
 [2019.01.16-19.58.10:134][544]LogHttp: Warning: 0000022E83BB5A80: libcurl info message cache 9 (Closing connection 290)
 [2019.01.16-20.13.18:392][584]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.16-22.37.33:152][103]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.16-22.37.33:152][103]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.16-23.47.30:347][191]LogSlate: Window 'KA_whiteBoxInClass - Unreal Editor' being destroyed
+[2019.01.16-23.47.30:392][191]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.16-23.47.32:823][192]Cmd: QUIT_EDITOR
+[2019.01.16-23.47.35:955][192]LogExit: Preparing to exit.
