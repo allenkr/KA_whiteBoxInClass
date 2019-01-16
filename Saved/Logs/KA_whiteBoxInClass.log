@@ -2019,3 +2019,26 @@ LogInit: Object subsystem initialized
 [2019.01.16-17.03.43:883][980]LogShaderCompilers: Display: Shaders left to compile 1
 [2019.01.16-17.03.43:900][980]TextureStreamingBuild: Display: Compiling optional shaders took 0.541 seconds.
 [2019.01.16-17.03.43:944][980]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_wbGrass_ka2A34E4E34BBED793851DF9BEC923A0F3.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_wbGrass_ka.uasset'
+[2019.01.16-17.04.47:050][313]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-17.04.56:126][572]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-17.08.11:791][493]LogAIModule: Creating AISystem for world KA_whitebox_inclass1
+[2019.01.16-17.08.26:684][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KA_BUIlD_BuiltData" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_BUIlD_BuiltData.uasset" SILENT=true
+[2019.01.16-17.08.26:711][701]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_BUIlD_BuiltData390718024249EC61CBCE099CBC4FC71C.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_BUIlD_BuiltData.uasset'
+[2019.01.16-17.08.29:572][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KA_BUIlD" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_BUIlD.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.16-17.08.30:501][701]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_BUIlD9EAD54A749722AD584F184AA16390AEA.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_BUIlD.umap'
+[2019.01.16-17.08.30:593][701]LogFileHelpers: Saving map 'KA_BUIlD' took 3.871
+[2019.01.16-17.51.51:837][816]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.16-18.18.33:760][516]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.16-19.58.04:765][528]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.16-19.58.10:133][544]LogHttp: Warning: 0000022E83BB5A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.16-19.58.10:133][544]LogHttp: Warning: 0000022E83BB5A80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x22e9c56bfa0 [can pipeline])
+[2019.01.16-19.58.10:134][544]LogHttp: Warning: 0000022E83BB5A80: libcurl info message cache 1 (Re-using existing connection! (#289) with host datarouter.ol.epicgames.com)
+[2019.01.16-19.58.10:134][544]LogHttp: Warning: 0000022E83BB5A80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.210.76.70) port 443 (#289))
+[2019.01.16-19.58.10:134][544]LogHttp: Warning: 0000022E83BB5A80: libcurl info message cache 3 (upload completely sent off: 5852 out of 5852 bytes)
+[2019.01.16-19.58.10:134][544]LogHttp: Warning: 0000022E83BB5A80: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2019.01.16-19.58.10:134][544]LogHttp: Warning: 0000022E83BB5A80: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.01.16-19.58.10:134][544]LogHttp: Warning: 0000022E83BB5A80: libcurl info message cache 6 (Closing connection 289)
+[2019.01.16-19.58.10:134][544]LogHttp: Warning: 0000022E83BB5A80: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB50A8C07-40D8-3498-E649-45B01C01DF27%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=e011238f4f314ec683400ca4fd12cfbc%7C70eb07038fb944fc985655b09c0f82ea%7Cfcf5425e-d6a0-4837-8d7c-8c6d5ebd9794&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2019.01.16-19.58.10:134][544]LogHttp: Warning: 0000022E83BB5A80: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.16-19.58.10:134][544]LogHttp: Warning: 0000022E83BB5A80: libcurl info message cache 9 (Closing connection 290)
+[2019.01.16-20.13.18:392][584]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
