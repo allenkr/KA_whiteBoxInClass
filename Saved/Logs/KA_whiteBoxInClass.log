@@ -587,3 +587,242 @@ LogInit: Object subsystem initialized
 [2019.01.16-20.51.43:211][643]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2019.01.16-20.51.44:093][643]LogSavePackage: Moving '../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Saved/KA_whitebox_inclass7E287CE2473EEDC7498856BD790589F4.tmp' to '../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Content/KA_whitebox_inclass.umap'
 [2019.01.16-20.51.44:127][643]LogFileHelpers: Saving map 'KA_whitebox_inclass' took 0.912
+[2019.01.16-20.53.36:402][239]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-20.53.42:875][890]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-20.54.02:650][381]LogAIModule: Creating AISystem for world KA_MyCity
+[2019.01.16-20.54.27:334][439]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-20.55.19:018][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KA_MyCity" FILE="../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Content/KA_MyCity.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.16-20.55.19:858][996]LogSavePackage: Moving '../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Saved/KA_MyCityBD80A8E04CB0A8EC1D2DBC95F7F6DB37.tmp' to '../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Content/KA_MyCity.umap'
+[2019.01.16-20.55.19:930][996]LogFileHelpers: Saving map 'KA_MyCity' took 0.978
+[2019.01.16-20.55.19:935][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KA_MyCity_BuiltData" FILE="../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Content/KA_MyCity_BuiltData.uasset" SILENT=true
+[2019.01.16-20.55.19:948][996]LogSavePackage: Moving '../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Saved/KA_MyCity_BuiltData20174E7C44C1BF7BCE1944A384C433CA.tmp' to '../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Content/KA_MyCity_BuiltData.uasset'
+[2019.01.16-20.55.34:031][116]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-20.55.38:217][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.10.31:263][ 77]LogActorFactory: Actor Factory created Cylinder
+[2019.01.16-21.10.32:320][190]LogActorFactory: Actor Factory created Cylinder
+[2019.01.16-21.10.36:054][543]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.10.53:353][703]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-21.10.55:040][878]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.10.55:476][919]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-21.11.18:698][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2019.01.16-21.11.45:011][342]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-21.11.51:545][889]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-21.12.16:820][756]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2019.01.16-21.12.17:912][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2019.01.16-21.12.17:972][888]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.01.16-21.12.18:802][984]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.01.16-21.12.18:886][991]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Cylinder)
+[2019.01.16-21.12.19:597][ 72]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2019.01.16-21.12.19:674][ 78]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.01.16-21.12.20:438][166]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.01.16-21.12.20:530][174]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Cylinder)
+[2019.01.16-21.12.22:316][380]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.12.27:995][995]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2019.01.16-21.12.29:971][229]Cmd: DELETE
+[2019.01.16-21.12.29:971][229]Cmd: ACTOR DELETE
+[2019.01.16-21.12.29:990][229]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.16-21.12.30:012][229]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2019.01.16-21.12.34:994][589]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.12.38:849][ 28]LogAssetEditorManager: Opening Asset editor for World /Game/KA_MyCity.KA_MyCity
+[2019.01.16-21.12.44:209][ 28]LogSlate: Window 'Save Content' being destroyed
+[2019.01.16-21.12.45:075][ 28]LogSavePackage: Moving '../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Saved/KA_whitebox_inclass37B94F1542AA5361D797A5A562EEB318.tmp' to '../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Content/KA_whitebox_inclass.umap'
+[2019.01.16-21.12.45:102][ 28]LogFileHelpers: Saving map 'KA_whitebox_inclass' took 0.885
+[2019.01.16-21.12.45:107][ 28]Cmd: MAP LOAD FILE="../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Content/KA_MyCity.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.16-21.12.45:107][ 28]LightingResults: New page: Lighting Build
+[2019.01.16-21.12.45:107][ 28]LoadErrors: New page: Loading map: KA_MyCity.umap
+[2019.01.16-21.12.45:111][ 28]MapCheck: New page: Map Check
+[2019.01.16-21.12.45:111][ 28]LightingResults: New page: Lighting Build
+[2019.01.16-21.12.45:151][ 28]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.16-21.12.45:231][ 28]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.16-21.12.45:295][ 28]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.797ms to complete.
+[2019.01.16-21.12.45:299][ 28]LogFileHelpers: Loading map 'KA_MyCity' took 0.194
+[2019.01.16-21.12.47:682][180]LogAssetEditorManager: Opening Asset editor for World /Game/KA_MyCity.KA_MyCity
+[2019.01.16-21.12.47:701][180]Cmd: MAP LOAD FILE="../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Content/KA_MyCity.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.16-21.12.47:701][180]LightingResults: New page: Lighting Build
+[2019.01.16-21.12.47:701][180]LoadErrors: New page: Loading map: KA_MyCity.umap
+[2019.01.16-21.12.47:704][180]MapCheck: New page: Map Check
+[2019.01.16-21.12.47:704][180]LightingResults: New page: Lighting Build
+[2019.01.16-21.12.47:899][180]LogAIModule: Creating AISystem for world KA_MyCity
+[2019.01.16-21.12.47:918][180]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.16-21.12.48:011][180]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.16-21.12.48:074][180]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.512ms to complete.
+[2019.01.16-21.12.48:076][180]LogFileHelpers: Loading map 'KA_MyCity' took 0.376
+[2019.01.16-21.13.23:588][  6]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/mi_CastleBase_ka.mi_CastleBase_ka
+[2019.01.16-21.13.36:631][119]LogSlate: Window 'Color Picker' being destroyed
+[2019.01.16-21.13.39:830][400]LogRenderer: Reallocating scene render targets to support 1336x924 Format 10 NumSamples 1 (Frame:28).
+[2019.01.16-21.13.40:229][445]LogSlate: Window 'mi_CastleBase_ka*' being destroyed
+[2019.01.16-21.13.42:550][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mi_CastleBase_ka" FILE="../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Content/mi_CastleBase_ka.uasset" SILENT=true
+[2019.01.16-21.13.42:577][707]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy mi_CastleBase_ka, compiling. 
+[2019.01.16-21.13.43:184][707]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.16-21.13.43:185][707]TextureStreamingBuild: Display: Compiling optional shaders took 0.614 seconds.
+[2019.01.16-21.13.43:219][707]LogSavePackage: Moving '../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Saved/mi_CastleBase_ka59CF88EE4B7E125925CBDFAE449CED06.tmp' to '../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Content/mi_CastleBase_ka.uasset'
+[2019.01.16-21.13.46:416][ 44]LogActorFactory: Actor Factory created Cylinder
+[2019.01.16-21.13.47:271][142]LogActorFactory: Actor Factory created Cylinder
+[2019.01.16-21.14.08:249][229]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.14.17:724][115]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-21.14.33:620][  9]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-21.14.55:245][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.15.11:290][984]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-21.15.12:516][125]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-21.15.13:815][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KA_MyCity" FILE="../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Content/KA_MyCity.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.16-21.15.14:598][125]LogSavePackage: Moving '../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Saved/KA_MyCityD4F11C2D439881DC770259BF3B7C5760.tmp' to '../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Content/KA_MyCity.umap'
+[2019.01.16-21.15.14:628][125]LogFileHelpers: Saving map 'KA_MyCity' took 2.106
+[2019.01.16-21.15.18:842][581]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.15.29:681][769]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2019.01.16-21.15.30:551][870]Cmd: DELETE
+[2019.01.16-21.15.30:551][870]Cmd: ACTOR DELETE
+[2019.01.16-21.15.30:569][870]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.16-21.15.30:587][870]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2019.01.16-21.15.31:701][978]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.15.34:349][277]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.16-21.15.36:340][472]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.15.43:613][ 96]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-21.15.52:815][ 34]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-21.15.56:642][419]Cmd: TRANSACTION UNDO
+[2019.01.16-21.15.56:643][419]LogEditorTransaction: Undo Move Actors
+[2019.01.16-21.15.56:815][419]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_100.BrushComponent0) Component already registered.
+[2019.01.16-21.15.56:817][419]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_25.BrushComponent0) Component already registered.
+[2019.01.16-21.15.56:821][419]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_sub_4.BrushComponent0) Component already registered.
+[2019.01.16-21.15.56:823][419]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_13.BrushComponent0) Component already registered.
+[2019.01.16-21.15.56:839][419]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_15.BrushComponent0) Component already registered.
+[2019.01.16-21.15.56:841][419]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_6.BrushComponent0) Component already registered.
+[2019.01.16-21.15.56:844][419]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_196.BrushComponent0) Component already registered.
+[2019.01.16-21.15.56:846][419]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_163.BrushComponent0) Component already registered.
+[2019.01.16-21.15.56:855][419]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_130.BrushComponent0) Component already registered.
+[2019.01.16-21.15.56:857][419]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_97.BrushComponent0) Component already registered.
+[2019.01.16-21.16.09:174][672]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-21.16.24:151][379]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.16.41:650][383]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.16.45:769][867]Cmd: TRANSACTION UNDO
+[2019.01.16-21.16.45:769][867]LogEditorTransaction: Undo Edit Extrude Depth
+[2019.01.16-21.16.47:092][  6]Cmd: TRANSACTION UNDO
+[2019.01.16-21.16.47:092][  6]LogEditorTransaction: Undo Edit Extrude Depth
+[2019.01.16-21.16.47:912][ 89]Cmd: TRANSACTION UNDO
+[2019.01.16-21.16.47:912][ 89]LogEditorTransaction: Undo Modifier [Pen]
+[2019.01.16-21.16.55:830][932]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.16.58:084][947]LogSlate: Window 'Extrude Coordinates Mode Warning' being destroyed
+[2019.01.16-21.17.20:688][530]LogGeometryMode: Warning: Unable to find grass_Brush_164 Brush(s) in new BSP
+[2019.01.16-21.17.20:689][530]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2019.01.16-21.17.22:309][714]Cmd: TRANSACTION UNDO
+[2019.01.16-21.17.22:309][714]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.16-21.17.33:267][883]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-21.17.35:028][ 90]Cmd: MODE GRID=0
+[2019.01.16-21.17.41:997][768]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.17.42:080][778]Cmd: MODE SCALEGRID=0
+[2019.01.16-21.18.15:602][377]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.18.18:480][387]LogSlate: Window 'Extrude Coordinates Mode Warning' being destroyed
+[2019.01.16-21.18.42:232][978]Cmd: TRANSACTION UNDO
+[2019.01.16-21.18.42:232][978]LogEditorTransaction: Undo Move Actors
+[2019.01.16-21.18.42:402][978]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_100.BrushComponent0) Component already registered.
+[2019.01.16-21.18.42:404][978]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_25.BrushComponent0) Component already registered.
+[2019.01.16-21.18.42:410][978]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_sub_4.BrushComponent0) Component already registered.
+[2019.01.16-21.18.42:412][978]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_13.BrushComponent0) Component already registered.
+[2019.01.16-21.18.42:429][978]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_15.BrushComponent0) Component already registered.
+[2019.01.16-21.18.42:430][978]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_6.BrushComponent0) Component already registered.
+[2019.01.16-21.18.42:432][978]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_196.BrushComponent0) Component already registered.
+[2019.01.16-21.18.42:434][978]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_163.BrushComponent0) Component already registered.
+[2019.01.16-21.18.42:443][978]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_130.BrushComponent0) Component already registered.
+[2019.01.16-21.18.42:445][978]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_97.BrushComponent0) Component already registered.
+[2019.01.16-21.18.42:557][978]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2019.01.16-21.18.42:557][978]LogGeometryMode: Warning: Unable to resolve CylinderBrush Brush in new BSP, see above
+[2019.01.16-21.18.42:557][978]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2019.01.16-21.18.43:161][ 29]Cmd: TRANSACTION UNDO
+[2019.01.16-21.18.43:162][ 29]LogEditorTransaction: Undo Scale Actors
+[2019.01.16-21.18.43:344][ 29]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_100.BrushComponent0) Component already registered.
+[2019.01.16-21.18.43:345][ 29]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_25.BrushComponent0) Component already registered.
+[2019.01.16-21.18.43:351][ 29]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_sub_4.BrushComponent0) Component already registered.
+[2019.01.16-21.18.43:353][ 29]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_13.BrushComponent0) Component already registered.
+[2019.01.16-21.18.43:370][ 29]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_15.BrushComponent0) Component already registered.
+[2019.01.16-21.18.43:371][ 29]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_6.BrushComponent0) Component already registered.
+[2019.01.16-21.18.43:374][ 29]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_196.BrushComponent0) Component already registered.
+[2019.01.16-21.18.43:375][ 29]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_163.BrushComponent0) Component already registered.
+[2019.01.16-21.18.43:385][ 29]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_130.BrushComponent0) Component already registered.
+[2019.01.16-21.18.43:387][ 29]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_97.BrushComponent0) Component already registered.
+[2019.01.16-21.19.00:516][730]Cmd: TRANSACTION UNDO
+[2019.01.16-21.19.00:516][730]LogEditorTransaction: Undo Scale Actors
+[2019.01.16-21.19.00:686][730]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_100.BrushComponent0) Component already registered.
+[2019.01.16-21.19.00:688][730]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_25.BrushComponent0) Component already registered.
+[2019.01.16-21.19.00:693][730]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_sub_4.BrushComponent0) Component already registered.
+[2019.01.16-21.19.00:695][730]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_13.BrushComponent0) Component already registered.
+[2019.01.16-21.19.00:712][730]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_15.BrushComponent0) Component already registered.
+[2019.01.16-21.19.00:713][730]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_6.BrushComponent0) Component already registered.
+[2019.01.16-21.19.00:716][730]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_196.BrushComponent0) Component already registered.
+[2019.01.16-21.19.00:718][730]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_163.BrushComponent0) Component already registered.
+[2019.01.16-21.19.00:727][730]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_130.BrushComponent0) Component already registered.
+[2019.01.16-21.19.00:728][730]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_97.BrushComponent0) Component already registered.
+[2019.01.16-21.19.00:987][734]Cmd: TRANSACTION UNDO
+[2019.01.16-21.19.00:987][734]LogEditorTransaction: Undo Scale Actors
+[2019.01.16-21.19.01:170][734]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_100.BrushComponent0) Component already registered.
+[2019.01.16-21.19.01:172][734]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_25.BrushComponent0) Component already registered.
+[2019.01.16-21.19.01:179][734]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_sub_4.BrushComponent0) Component already registered.
+[2019.01.16-21.19.01:181][734]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_13.BrushComponent0) Component already registered.
+[2019.01.16-21.19.01:198][734]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_15.BrushComponent0) Component already registered.
+[2019.01.16-21.19.01:199][734]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_6.BrushComponent0) Component already registered.
+[2019.01.16-21.19.01:202][734]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_196.BrushComponent0) Component already registered.
+[2019.01.16-21.19.01:204][734]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_163.BrushComponent0) Component already registered.
+[2019.01.16-21.19.01:213][734]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_130.BrushComponent0) Component already registered.
+[2019.01.16-21.19.01:215][734]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_97.BrushComponent0) Component already registered.
+[2019.01.16-21.19.01:979][789]Cmd: TRANSACTION UNDO
+[2019.01.16-21.19.01:979][789]LogEditorTransaction: Undo Scale Actors
+[2019.01.16-21.19.02:159][789]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_100.BrushComponent0) Component already registered.
+[2019.01.16-21.19.02:161][789]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_25.BrushComponent0) Component already registered.
+[2019.01.16-21.19.02:166][789]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_sub_4.BrushComponent0) Component already registered.
+[2019.01.16-21.19.02:168][789]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_13.BrushComponent0) Component already registered.
+[2019.01.16-21.19.02:189][789]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_15.BrushComponent0) Component already registered.
+[2019.01.16-21.19.02:191][789]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_6.BrushComponent0) Component already registered.
+[2019.01.16-21.19.02:194][789]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_196.BrushComponent0) Component already registered.
+[2019.01.16-21.19.02:195][789]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_163.BrushComponent0) Component already registered.
+[2019.01.16-21.19.02:205][789]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_130.BrushComponent0) Component already registered.
+[2019.01.16-21.19.02:207][789]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_97.BrushComponent0) Component already registered.
+[2019.01.16-21.19.02:943][848]Cmd: TRANSACTION UNDO
+[2019.01.16-21.19.02:943][848]LogEditorTransaction: Undo Scale Actors
+[2019.01.16-21.19.03:125][848]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_100.BrushComponent0) Component already registered.
+[2019.01.16-21.19.03:127][848]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_25.BrushComponent0) Component already registered.
+[2019.01.16-21.19.03:131][848]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_sub_4.BrushComponent0) Component already registered.
+[2019.01.16-21.19.03:134][848]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_13.BrushComponent0) Component already registered.
+[2019.01.16-21.19.03:155][848]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_15.BrushComponent0) Component already registered.
+[2019.01.16-21.19.03:156][848]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_6.BrushComponent0) Component already registered.
+[2019.01.16-21.19.03:159][848]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_196.BrushComponent0) Component already registered.
+[2019.01.16-21.19.03:161][848]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_163.BrushComponent0) Component already registered.
+[2019.01.16-21.19.03:168][848]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_130.BrushComponent0) Component already registered.
+[2019.01.16-21.19.03:170][848]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_97.BrushComponent0) Component already registered.
+[2019.01.16-21.19.07:134][245]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.19.23:284][458]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.19.25:687][467]LogSlate: Window 'Extrude Coordinates Mode Warning' being destroyed
+[2019.01.16-21.19.33:388][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.19.36:037][569]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.19.39:114][927]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.19.40:383][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-21.19.54:789][677]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.20.16:603][177]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.20.21:568][716]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-21.20.25:875][183]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.20.33:067][982]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.20.37:598][474]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-21.20.43:710][148]LogEditorViewport: Clicking on Actor (double click): Brush (Cylinder Brush)
+[2019.01.16-21.20.54:893][363]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.20.56:706][574]LogEditorViewport: Clicking on Actor (double click): Brush (Cylinder Brush)
+[2019.01.16-21.20.57:699][681]LogEditorViewport: Clicking on Actor (double click): Brush (Cylinder Brush)
+[2019.01.16-21.20.59:482][888]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-21.21.01:767][141]LogGeometryMode: Warning: Unable to find grass_Brush_150 Brush(s) in new BSP
+[2019.01.16-21.21.01:767][141]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2019.01.16-21.21.03:814][380]Cmd: TRANSACTION UNDO
+[2019.01.16-21.21.03:814][380]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.16-21.21.06:210][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.21.06:273][614]LogGeometryMode: Warning: Unable to find grass_Brush_151 Brush(s) in new BSP
+[2019.01.16-21.21.06:273][614]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2019.01.16-21.21.18:490][995]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.21.21:424][335]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-21.22.03:375][244]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-21.23.12:905][822]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-21.23.25:732][340]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-21.23.30:830][924]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-21.23.31:903][ 43]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-21.23.31:972][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KA_MyCity" FILE="../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Content/KA_MyCity.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.16-21.23.32:774][ 43]LogSavePackage: Moving '../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Saved/KA_MyCity0F5BD46C4180BFDFC26DFABC61A4F330.tmp' to '../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Content/KA_MyCity.umap'
+[2019.01.16-21.23.32:807][ 43]LogFileHelpers: Saving map 'KA_MyCity' took 0.900
+[2019.01.16-21.23.32:809][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mi_CastleBase_ka" FILE="../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Content/mi_CastleBase_ka.uasset" SILENT=true
+[2019.01.16-21.23.32:834][ 43]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy mi_CastleBase_ka, compiling. 
+[2019.01.16-21.23.33:255][ 43]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.16-21.23.33:257][ 43]TextureStreamingBuild: Display: Compiling optional shaders took 0.426 seconds.
+[2019.01.16-21.23.33:796][ 43]LogSavePackage: Moving '../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Saved/mi_CastleBase_ka4CE90976467BDD433DE12D9559B901EC.tmp' to '../../../../../../Users/u0802452/Documents/GitHub/KA_whiteBoxInClass/Content/mi_CastleBase_ka.uasset'
