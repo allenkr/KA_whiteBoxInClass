@@ -295,3 +295,75 @@ LogInit: Object subsystem initialized
 [2019.01.23-16.31.30:470][  0]SourceControl: Source control is disabled
 [2019.01.23-16.31.30:749][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
 [2019.01.23-16.31.30:751][  0]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.23-16.31.52:197][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2019.01.23-16.31.52:198][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.23-16.31.52:219][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.23-16.31.52:221][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.23-16.31.52:223][  0]LightingResults: New page: Lighting Build
+[2019.01.23-16.31.52:230][  0]MapCheck: New page: Map Check
+[2019.01.23-16.31.52:231][  0]LightingResults: New page: Lighting Build
+[2019.01.23-16.31.52:632][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.01.23-16.31.52:646][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.23-16.31.52:719][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.23-16.31.52:863][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 143.666ms to complete.
+[2019.01.23-16.31.52:863][  0]LogFileHelpers: Loading map 'Template_Default' took 0.641
+[2019.01.23-16.31.54:349][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-16.31.54:417][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-16.31.54:426][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-16.31.54:437][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-16.31.54:582][  0]LogCollectionManager: Loaded 0 collections in 0.009451 seconds
+[2019.01.23-16.31.54:795][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/Collections/' took 0.01s
+[2019.01.23-16.31.54:795][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/Developers/kevin/Collections/' took 0.01s
+[2019.01.23-16.31.54:795][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/Collections/' took 0.01s
+[2019.01.23-16.31.54:795][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.01.23-16.31.54:842][  0]LogContentBrowser: Native class hierarchy populated in 0.0382 seconds. Added 2572 classes and 603 folders.
+[2019.01.23-16.31.54:946][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.01.23-16.31.56:494][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.01.23-16.31.56:590][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.01.23-16.31.57:008][  0]LogSlate: Took 0.000523 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.23-16.31.57:159][  0]LogSlate: Took 0.052626 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.23-16.31.57:627][  0]LogRenderer: Reallocating scene render targets to support 856x376 Format 10 NumSamples 1 (Frame:1).
+[2019.01.23-16.31.58:563][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.23-16.31.58:563][  0]LogLoad: (Engine Initialization) Total time: 44.28 seconds
+[2019.01.23-16.31.58:563][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.23-16.31.58:685][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.23-16.31.58:755][  0]LogSlate: Took 0.027840 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.23-16.31.58:789][  1]LogAssetRegistry: Asset discovery search completed in 38.2945 seconds
+[2019.01.23-16.31.58:791][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.23-16.31.58:792][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000088 seconds (updated 0 objects)
+[2019.01.23-16.32.05:324][142]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-16.32.05:468][147]LogSlate: Took 0.000742 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.23-16.32.06:949][147]LogAIModule: Creating AISystem for world KA_MyCity
+[2019.01.23-16.32.07:143][147]LogAssetEditorManager: Opening Asset editor for World /Game/KA_MyCity.KA_MyCity
+[2019.01.23-16.32.07:199][147]Cmd: MAP LOAD FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_MyCity.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.23-16.32.07:200][147]LightingResults: New page: Lighting Build
+[2019.01.23-16.32.07:201][147]LoadErrors: New page: Loading map: KA_MyCity.umap
+[2019.01.23-16.32.07:201][147]MapCheck: New page: Map Check
+[2019.01.23-16.32.07:201][147]LightingResults: New page: Lighting Build
+[2019.01.23-16.32.07:260][147]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.23-16.32.07:453][147]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.23-16.32.07:534][147]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 81.063ms to complete.
+[2019.01.23-16.32.07:534][147]LogFileHelpers: Loading map 'KA_MyCity' took 0.353
+[2019.01.23-18.33.58:006][667]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.23-18.33.58:350][669]LogHttp: Warning: 000001F3A8A07880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.23-18.33.58:351][669]LogHttp: Warning: 000001F3A8A07880: libcurl info message cache 0 (Connection 48 seems to be dead!)
+[2019.01.23-18.33.58:351][669]LogHttp: Warning: 000001F3A8A07880: libcurl info message cache 1 (Closing connection 48)
+[2019.01.23-18.33.58:351][669]LogHttp: Warning: 000001F3A8A07880: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.01.23-18.33.58:351][669]LogHttp: Warning: 000001F3A8A07880: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.23-18.33.58:351][669]LogHttp: Warning: 000001F3A8A07880: libcurl info message cache 4 (Closing connection 49)
+[2019.01.23-19.28.32:104][451]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.23-23.13.46:126][559]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.23-23.13.46:471][561]LogHttp: Warning: 000001F3A8A07880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.23-23.13.46:472][561]LogHttp: Warning: 000001F3A8A07880: libcurl info message cache 0 (Connection 90 seems to be dead!)
+[2019.01.23-23.13.46:472][561]LogHttp: Warning: 000001F3A8A07880: libcurl info message cache 1 (Closing connection 90)
+[2019.01.23-23.13.46:472][561]LogHttp: Warning: 000001F3A8A07880: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.01.23-23.13.46:472][561]LogHttp: Warning: 000001F3A8A07880: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.23-23.13.46:472][561]LogHttp: Warning: 000001F3A8A07880: libcurl info message cache 4 (Closing connection 91)
+[2019.01.24-01.12.34:709][611]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.24-01.12.35:050][613]LogHttp: Warning: 000001F3A8A07880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.24-01.12.35:050][613]LogHttp: Warning: 000001F3A8A07880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.24-01.12.35:050][613]LogHttp: Warning: 000001F3A8A07880: libcurl info message cache 1 (Closing connection 92)
+[2019.01.24-01.14.34:679][993]LogSlate: Window 'KA_whiteBoxInClass - Unreal Editor' being destroyed
+[2019.01.24-01.14.34:700][993]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.24-01.14.37:432][994]Cmd: QUIT_EDITOR
+[2019.01.24-01.14.38:314][994]LogExit: Preparing to exit.
