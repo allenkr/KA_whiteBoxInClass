@@ -358,3 +358,758 @@ LogInit: Object subsystem initialized
 [2019.01.26-03.56.40:676][341]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 86.136ms to complete.
 [2019.01.26-03.56.40:676][341]LogFileHelpers: Loading map 'KA_MyCity' took 0.353
 [2019.01.26-03.57.16:781][725]LogEditorViewport: Clicking on Actor (LMB): Brush (Brush_st_179)
+[2019.01.26-04.00.02:721][361]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-04.00.09:158][506]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.26-04.00.19:598][670]Cmd: DELETE
+[2019.01.26-04.00.19:598][670]Cmd: ACTOR DELETE
+[2019.01.26-04.00.19:949][670]LogEditorActor: Deleted Actor: Brush
+[2019.01.26-04.00.21:361][670]LogEditorActor: Deleted 1 Actors (1.631 secs)
+[2019.01.26-04.02.28:042][608]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-04.02.29:401][610]LogAIModule: Creating AISystem for world KA_whitebox_inclass
+[2019.01.26-04.02.29:540][610]LogAssetEditorManager: Opening Asset editor for World /Game/KA_whitebox_inclass.KA_whitebox_inclass
+[2019.01.26-04.02.32:272][610]LogSlate: Window 'Save Content' being destroyed
+[2019.01.26-04.02.35:400][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KA_MyCity" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_MyCity.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.26-04.02.38:196][610]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_MyCityF9D3F64A48EFE34ACC62D2A564809D6C.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_MyCity.umap'
+[2019.01.26-04.02.38:315][610]LogFileHelpers: Saving map 'KA_MyCity' took 6.003
+[2019.01.26-04.02.38:319][610]Cmd: MAP LOAD FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_whitebox_inclass.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.26-04.02.38:319][610]LightingResults: New page: Lighting Build
+[2019.01.26-04.02.38:321][610]LoadErrors: New page: Loading map: KA_whitebox_inclass.umap
+[2019.01.26-04.02.38:330][610]MapCheck: New page: Map Check
+[2019.01.26-04.02.38:330][610]LightingResults: New page: Lighting Build
+[2019.01.26-04.02.38:438][610]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.26-04.02.38:608][610]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.26-04.02.38:694][610]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 85.494ms to complete.
+[2019.01.26-04.02.38:694][610]LogFileHelpers: Loading map 'KA_whitebox_inclass' took 0.378
+[2019.01.26-04.02.50:700][819]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-04.02.51:208][820]LogAIModule: Creating AISystem for world KA_MyCity
+[2019.01.26-04.02.51:340][820]LogAssetEditorManager: Opening Asset editor for World /Game/KA_MyCity.KA_MyCity
+[2019.01.26-04.02.51:371][820]Cmd: MAP LOAD FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_MyCity.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.26-04.02.51:371][820]LightingResults: New page: Lighting Build
+[2019.01.26-04.02.51:372][820]LoadErrors: New page: Loading map: KA_MyCity.umap
+[2019.01.26-04.02.51:377][820]MapCheck: New page: Map Check
+[2019.01.26-04.02.51:377][820]LightingResults: New page: Lighting Build
+[2019.01.26-04.02.51:439][820]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.26-04.02.51:626][820]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.26-04.02.51:717][820]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 91.061ms to complete.
+[2019.01.26-04.02.51:717][820]LogFileHelpers: Loading map 'KA_MyCity' took 0.347
+[2019.01.26-05.14.17:387][444]LogHttp: Warning: 0000016F08E30900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.26-05.14.17:387][444]LogHttp: Warning: 0000016F08E30900: libcurl info message cache 0 (Connection 3 seems to be dead!)
+[2019.01.26-05.14.17:388][444]LogHttp: Warning: 0000016F08E30900: libcurl info message cache 1 (Closing connection 3)
+[2019.01.26-05.14.17:388][444]LogHttp: Warning: 0000016F08E30900: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.01.26-05.14.17:388][444]LogHttp: Warning: 0000016F08E30900: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.26-05.14.17:388][444]LogHttp: Warning: 0000016F08E30900: libcurl info message cache 4 (Closing connection 4)
+[2019.01.26-05.14.27:564][661]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.18.35:509][495]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.26-05.18.54:240][733]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.20.24:980][120]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.20.30:768][254]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.20.33:525][301]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.26-05.20.37:485][373]Cmd: TRANSACTION UNDO
+[2019.01.26-05.20.37:485][373]LogEditorTransaction: Undo Brush Add
+[2019.01.26-05.20.38:947][385]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.20.41:202][423]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.26-05.20.50:837][632]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.21.35:333][ 48]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.26-05.21.38:949][133]Cmd: DELETE
+[2019.01.26-05.21.38:950][133]Cmd: ACTOR DELETE
+[2019.01.26-05.21.39:034][133]LogEditorActor: Deleted Actor: Brush
+[2019.01.26-05.21.40:736][133]LogEditorActor: Deleted 1 Actors (1.786 secs)
+[2019.01.26-05.21.44:788][221]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.21.45:557][227]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/mi_topBase_ka.mi_topBase_ka
+[2019.01.26-05.21.51:839][281]LogRenderer: Reallocating scene render targets to support 856x592 Format 10 NumSamples 1 (Frame:8).
+[2019.01.26-05.21.52:290][296]LogSlate: Window 'mi_topBase_ka' being destroyed
+[2019.01.26-05.21.57:357][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KA_MyCity" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_MyCity.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.26-05.21.59:518][471]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_MyCityFA371A41473C32F0778DA3991B9ED2C2.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_MyCity.umap'
+[2019.01.26-05.21.59:573][471]LogFileHelpers: Saving map 'KA_MyCity' took 2.314
+[2019.01.26-05.22.06:507][618]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.26-05.22.11:298][708]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-05.22.22:049][244]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.26-05.22.25:253][309]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.22.27:324][359]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.22.29:265][397]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.22.31:928][445]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-05.22.46:098][137]LogEditorViewport: Clicking on Actor (LMB): Brush (Cone Brush)
+[2019.01.26-05.22.51:806][264]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-05.22.57:591][464]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.23.16:745][183]Cmd: POLY SELECT ADJACENT ALL
+[2019.01.26-05.24.39:744][918]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.25.18:888][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.25.25:354][201]Cmd: POLY SELECT ADJACENT ALL
+[2019.01.26-05.25.41:231][905]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.26-05.25.50:259][100]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.25.55:149][213]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.27.40:186][657]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.27.46:949][789]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.26-05.28.23:339][703]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.30.52:526][144]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.30.55:602][222]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.26-05.31.06:099][463]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.31.15:715][743]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.31.20:561][818]Cmd: TRANSACTION UNDO
+[2019.01.26-05.31.20:561][818]LogEditorTransaction: Undo Scale Actors
+[2019.01.26-05.31.20:927][818]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_100.BrushComponent0) Component already registered.
+[2019.01.26-05.31.20:934][818]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_37.BrushComponent0) Component already registered.
+[2019.01.26-05.31.20:943][818]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_39.BrushComponent0) Component already registered.
+[2019.01.26-05.31.20:946][818]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_6.BrushComponent0) Component already registered.
+[2019.01.26-05.31.20:987][818]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_28.BrushComponent0) Component already registered.
+[2019.01.26-05.31.20:989][818]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_12.BrushComponent0) Component already registered.
+[2019.01.26-05.31.20:991][818]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_20.BrushComponent0) Component already registered.
+[2019.01.26-05.31.20:992][818]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_47.BrushComponent0) Component already registered.
+[2019.01.26-05.31.20:997][818]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_198.BrushComponent0) Component already registered.
+[2019.01.26-05.31.20:998][818]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_156.BrushComponent0) Component already registered.
+[2019.01.26-05.31.21:004][818]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_257.BrushComponent0) Component already registered.
+[2019.01.26-05.31.21:009][818]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_215.BrushComponent0) Component already registered.
+[2019.01.26-05.31.21:015][818]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_63.BrushComponent0) Component already registered.
+[2019.01.26-05.31.21:017][818]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_157.BrushComponent0) Component already registered.
+[2019.01.26-05.31.21:026][818]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_152.BrushComponent0) Component already registered.
+[2019.01.26-05.31.21:029][818]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_80.BrushComponent0) Component already registered.
+[2019.01.26-05.31.21:030][818]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_97.BrushComponent0) Component already registered.
+[2019.01.26-05.31.52:774][422]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-05.32.48:483][524]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.33.32:614][320]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_MyCity_Auto1601734B4469572DA964735AEB6C785EB.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/Autosaves/Game/KA_MyCity_Auto1.umap'
+[2019.01.26-05.33.32:645][320]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 2.517
+[2019.01.26-05.33.32:645][320]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.517
+[2019.01.26-05.33.32:700][320]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/mi_topBase_ka] ([1] browsable assets)...
+[2019.01.26-05.33.32:804][320]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/mi_topBase_ka.mi_topBase_ka]
+[2019.01.26-05.33.32:804][320]OBJ SavePackage: Finished generating thumbnails for package [/Game/mi_topBase_ka]
+[2019.01.26-05.33.32:955][320]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy mi_topBase_ka, compiling. 
+[2019.01.26-05.33.38:797][320]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.26-05.33.38:860][320]TextureStreamingBuild: Display: Compiling optional shaders took 5.977 seconds.
+[2019.01.26-05.33.39:047][320]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_topBase_ka_Auto12FE4A54C45DCD89EF4C50DA9D3B24A4E.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/Autosaves/Game/mi_topBase_ka_Auto1.uasset'
+[2019.01.26-05.33.39:049][320]LogFileHelpers: Auto-saving content packages took 6.350
+[2019.01.26-05.33.52:228][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.34.05:774][805]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.34.15:840][980]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.35.04:283][678]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.35.51:166][603]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.36.57:122][902]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.37.24:388][ 46]Cmd: TRANSACTION UNDO
+[2019.01.26-05.37.24:388][ 46]LogEditorTransaction: Undo Move Actors
+[2019.01.26-05.37.24:766][ 46]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_99.BrushComponent0) Component already registered.
+[2019.01.26-05.37.24:772][ 46]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_112.BrushComponent0) Component already registered.
+[2019.01.26-05.37.24:774][ 46]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_46.BrushComponent0) Component already registered.
+[2019.01.26-05.37.24:775][ 46]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_49.BrushComponent0) Component already registered.
+[2019.01.26-05.37.24:778][ 46]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_121.BrushComponent0) Component already registered.
+[2019.01.26-05.37.24:784][ 46]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_5.BrushComponent0) Component already registered.
+[2019.01.26-05.37.24:821][ 46]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_24.BrushComponent0) Component already registered.
+[2019.01.26-05.37.24:826][ 46]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_19.BrushComponent0) Component already registered.
+[2019.01.26-05.37.24:827][ 46]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_7.BrushComponent0) Component already registered.
+[2019.01.26-05.37.24:833][ 46]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_193.BrushComponent0) Component already registered.
+[2019.01.26-05.37.24:839][ 46]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_172.BrushComponent0) Component already registered.
+[2019.01.26-05.37.24:847][ 46]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_214.BrushComponent0) Component already registered.
+[2019.01.26-05.37.24:850][ 46]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_231.BrushComponent0) Component already registered.
+[2019.01.26-05.37.24:851][ 46]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_174.BrushComponent0) Component already registered.
+[2019.01.26-05.37.24:856][ 46]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_75.BrushComponent0) Component already registered.
+[2019.01.26-05.37.24:858][ 46]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_126.BrushComponent0) Component already registered.
+[2019.01.26-05.37.24:860][ 46]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_130.BrushComponent0) Component already registered.
+[2019.01.26-05.37.24:862][ 46]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_92.BrushComponent0) Component already registered.
+[2019.01.26-05.37.35:911][252]Cmd: TRANSACTION UNDO
+[2019.01.26-05.37.35:912][252]LogEditorTransaction: Undo Move Actors
+[2019.01.26-05.37.36:319][252]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_99.BrushComponent0) Component already registered.
+[2019.01.26-05.37.36:325][252]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_112.BrushComponent0) Component already registered.
+[2019.01.26-05.37.36:327][252]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_46.BrushComponent0) Component already registered.
+[2019.01.26-05.37.36:328][252]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_49.BrushComponent0) Component already registered.
+[2019.01.26-05.37.36:330][252]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_121.BrushComponent0) Component already registered.
+[2019.01.26-05.37.36:335][252]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_5.BrushComponent0) Component already registered.
+[2019.01.26-05.37.36:375][252]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_24.BrushComponent0) Component already registered.
+[2019.01.26-05.37.36:380][252]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_19.BrushComponent0) Component already registered.
+[2019.01.26-05.37.36:381][252]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_7.BrushComponent0) Component already registered.
+[2019.01.26-05.37.36:387][252]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_193.BrushComponent0) Component already registered.
+[2019.01.26-05.37.36:393][252]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_172.BrushComponent0) Component already registered.
+[2019.01.26-05.37.36:400][252]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_214.BrushComponent0) Component already registered.
+[2019.01.26-05.37.36:403][252]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_231.BrushComponent0) Component already registered.
+[2019.01.26-05.37.36:404][252]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_174.BrushComponent0) Component already registered.
+[2019.01.26-05.37.36:413][252]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_75.BrushComponent0) Component already registered.
+[2019.01.26-05.37.36:416][252]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_126.BrushComponent0) Component already registered.
+[2019.01.26-05.37.36:418][252]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_130.BrushComponent0) Component already registered.
+[2019.01.26-05.37.36:419][252]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_92.BrushComponent0) Component already registered.
+[2019.01.26-05.37.51:661][301]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-05.38.04:435][514]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.26-05.38.20:697][744]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-05.40.50:611][207]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.40.59:466][396]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.41.05:700][520]Cmd: TRANSACTION UNDO
+[2019.01.26-05.41.05:700][520]LogEditorTransaction: Undo Move Actors
+[2019.01.26-05.41.06:116][520]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_248.BrushComponent0) Component already registered.
+[2019.01.26-05.41.06:118][520]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_23.BrushComponent0) Component already registered.
+[2019.01.26-05.41.06:126][520]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_140.BrushComponent0) Component already registered.
+[2019.01.26-05.41.06:127][520]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_118.BrushComponent0) Component already registered.
+[2019.01.26-05.41.06:128][520]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_113.BrushComponent0) Component already registered.
+[2019.01.26-05.41.06:129][520]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_39.BrushComponent0) Component already registered.
+[2019.01.26-05.41.06:133][520]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SUB_SW_1.BrushComponent0) Component already registered.
+[2019.01.26-05.41.06:135][520]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_13.BrushComponent0) Component already registered.
+[2019.01.26-05.41.06:171][520]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_24.BrushComponent0) Component already registered.
+[2019.01.26-05.41.06:172][520]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_18.BrushComponent0) Component already registered.
+[2019.01.26-05.41.06:174][520]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_21.BrushComponent0) Component already registered.
+[2019.01.26-05.41.06:179][520]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_204.BrushComponent0) Component already registered.
+[2019.01.26-05.41.06:179][520]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_182.BrushComponent0) Component already registered.
+[2019.01.26-05.41.06:181][520]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_199.BrushComponent0) Component already registered.
+[2019.01.26-05.41.06:184][520]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_174.BrushComponent0) Component already registered.
+[2019.01.26-05.41.06:185][520]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_178.BrushComponent0) Component already registered.
+[2019.01.26-05.41.06:190][520]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_216.BrushComponent0) Component already registered.
+[2019.01.26-05.41.06:192][520]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_233.BrushComponent0) Component already registered.
+[2019.01.26-05.41.06:201][520]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_158.BrushComponent0) Component already registered.
+[2019.01.26-05.41.06:203][520]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_127.BrushComponent0) Component already registered.
+[2019.01.26-05.41.06:205][520]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_89.BrushComponent0) Component already registered.
+[2019.01.26-05.41.06:207][520]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_106.BrushComponent0) Component already registered.
+[2019.01.26-05.42.26:764][140]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.42.40:934][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.42.55:313][657]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.44.06:927][159]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-05.44.08:384][159]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_MyCity_Auto26E7C1B2F40C82AEA11B83FBFBC418B9A.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/Autosaves/Game/KA_MyCity_Auto2.umap'
+[2019.01.26-05.44.08:392][159]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 1.409
+[2019.01.26-05.44.08:392][159]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.409
+[2019.01.26-05.44.08:396][159]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mi_topBase_ka] ([1] browsable assets)...
+[2019.01.26-05.44.08:396][159]OBJ SavePackage: Finished generating thumbnails for package [/Game/mi_topBase_ka]
+[2019.01.26-05.44.08:450][159]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy mi_topBase_ka, compiling. 
+[2019.01.26-05.44.08:949][159]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.26-05.44.09:001][159]TextureStreamingBuild: Display: Compiling optional shaders took 0.556 seconds.
+[2019.01.26-05.44.09:055][159]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_topBase_ka_Auto2069127754AF6F9032D36A5B80B529EE4.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/Autosaves/Game/mi_topBase_ka_Auto2.uasset'
+[2019.01.26-05.44.09:056][159]LogFileHelpers: Auto-saving content packages took 0.661
+[2019.01.26-05.45.03:136][284]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.46.39:677][967]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.48.03:732][909]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.48.32:987][485]Cmd: TRANSACTION UNDO
+[2019.01.26-05.48.32:987][485]LogEditorTransaction: Undo Move Actors
+[2019.01.26-05.48.33:485][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_101.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:488][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_97.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:488][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_110.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:491][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_250.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:492][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_79.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:495][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_88.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:503][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_119.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:505][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_115.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:506][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_128.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:508][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_124.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:511][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SUB_SW_1.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:514][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_2.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:565][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_25.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:566][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_24.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:567][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_106.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:570][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_70.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:575][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_47.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:578][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_56.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:578][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_190.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:580][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_207.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:583][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_164.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:584][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_181.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:585][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_262.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:586][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_254.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:587][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:588][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_65.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:589][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_224.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:591][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_241.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:597][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_66.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:602][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_58.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:605][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_130.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:610][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_83.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:612][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_109.BrushComponent0) Component already registered.
+[2019.01.26-05.48.33:613][485]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_113.BrushComponent0) Component already registered.
+[2019.01.26-05.49.48:666][198]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.26-05.51.07:211][ 95]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush6)
+[2019.01.26-05.51.09:199][141]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.51.25:961][519]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.51.49:323][ 20]Cmd: TRANSACTION UNDO
+[2019.01.26-05.51.49:323][ 20]LogEditorTransaction: Undo Move Actors
+[2019.01.26-05.51.49:693][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_101.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:695][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_97.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:695][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_110.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:696][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_250.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:697][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_79.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:698][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_88.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:704][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_119.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:706][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_115.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:706][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_128.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:708][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_124.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:710][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SUB_SW_1.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:712][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_2.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:746][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_25.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:747][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_24.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:748][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_106.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:750][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_70.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:752][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_47.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:754][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_56.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:755][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_190.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:756][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_207.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:759][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_164.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:762][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_181.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:763][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_262.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:765][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_254.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:766][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:768][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_65.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:769][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_224.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:770][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_241.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:777][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_66.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:781][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_58.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:783][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_130.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:786][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_83.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:787][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_109.BrushComponent0) Component already registered.
+[2019.01.26-05.51.49:788][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_113.BrushComponent0) Component already registered.
+[2019.01.26-05.51.56:291][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.54.11:716][322]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_MyCity_Auto3ABE1D3054CD84DC8749219AEE1A98D1E.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/Autosaves/Game/KA_MyCity_Auto3.umap'
+[2019.01.26-05.54.11:722][322]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 1.445
+[2019.01.26-05.54.11:722][322]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.445
+[2019.01.26-05.54.11:728][322]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mi_topBase_ka] ([1] browsable assets)...
+[2019.01.26-05.54.11:728][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/mi_topBase_ka]
+[2019.01.26-05.54.11:775][322]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy mi_topBase_ka, compiling. 
+[2019.01.26-05.54.12:276][322]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.26-05.54.12:279][322]TextureStreamingBuild: Display: Compiling optional shaders took 0.508 seconds.
+[2019.01.26-05.54.12:335][322]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_topBase_ka_Auto32F93C1104074D6DC79253DAF45A15D8E.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/Autosaves/Game/mi_topBase_ka_Auto3.uasset'
+[2019.01.26-05.54.12:337][322]LogFileHelpers: Auto-saving content packages took 0.610
+[2019.01.26-05.55.06:753][652]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.55.30:419][ 89]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.26-05.55.37:054][237]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.55.53:836][538]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.58.32:029][488]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.26-05.58.55:792][  1]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.59.00:275][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.59.05:341][161]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-05.59.31:851][677]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.03.16:801][792]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.03.18:035][856]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.03.18:132][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KA_MyCity" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_MyCity.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.26-06.03.19:484][856]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_MyCity5F2A6CBF410DBDA9D0E002BE9952D560.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_MyCity.umap'
+[2019.01.26-06.03.19:590][856]LogFileHelpers: Saving map 'KA_MyCity' took 1.548
+[2019.01.26-06.03.19:596][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mi_topBase_ka" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_topBase_ka.uasset" SILENT=true
+[2019.01.26-06.03.19:641][856]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy mi_topBase_ka, compiling. 
+[2019.01.26-06.03.20:655][856]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.26-06.03.20:658][856]TextureStreamingBuild: Display: Compiling optional shaders took 1.023 seconds.
+[2019.01.26-06.03.20:710][856]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_topBase_ka742F4BFC4EFA7EABBAD114B1BA7EC6D6.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_topBase_ka.uasset'
+[2019.01.26-06.04.46:878][849]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.05.50:137][267]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.06.07:073][626]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.06.18:477][836]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.26-06.06.23:612][949]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.06.49:028][373]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.07.31:530][205]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.26-06.08.21:991][385]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.08.23:285][458]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.08.23:399][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KA_MyCity" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_MyCity.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.26-06.08.25:142][458]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_MyCityFA1BF4FA494DC2AEBC7F6A97D12FB4C1.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_MyCity.umap'
+[2019.01.26-06.08.25:289][458]LogFileHelpers: Saving map 'KA_MyCity' took 1.994
+[2019.01.26-06.09.32:720][988]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.09.36:987][100]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.26-06.09.48:201][404]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.26-06.11.52:148][633]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.26-06.12.24:375][966]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.26-06.12.29:198][ 75]Cmd: TRANSACTION UNDO
+[2019.01.26-06.12.29:198][ 75]LogEditorTransaction: Undo Apply Material to Surface
+[2019.01.26-06.12.31:251][155]Cmd: TRANSACTION UNDO
+[2019.01.26-06.12.31:251][155]LogEditorTransaction: Undo Snap Actors To Floor
+[2019.01.26-06.12.32:095][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_173.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:096][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_168.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:101][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_224.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:102][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_196.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:103][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_190.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:104][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_201.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:105][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_89.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:109][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_78.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:112][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_152.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:112][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_112.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:115][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_145.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:115][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_117.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:117][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush39.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:119][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush44.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:121][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_257.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:121][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_251.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:124][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_262.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:126][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_229.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:130][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_246.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:131][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_241.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:132][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:133][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush26.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:135][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush9.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:138][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_15.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:138][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_9.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:139][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_19.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:140][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_52.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:140][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_26.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:142][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_85.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:144][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_69.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:145][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_37.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:147][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_43.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:198][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_SideW_4.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:199][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_sub_3.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:201][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SUB_SW_5.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:204][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_153.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:204][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_138.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:206][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_56.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:206][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_49.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:207][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_58.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:210][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_176.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:212][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_160.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:216][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_111.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:217][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_95.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:218][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_29.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:220][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_28.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:221][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_128.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:221][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_126.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:222][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_45.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:223][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_35.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:225][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_38.BrushComponent0) Component already registered.
+[2019.01.26-06.12.32:226][155]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_120.BrushComponent0) Component already registered.
+[2019.01.26-06.12.53:053][537]Cmd: TRANSACTION UNDO
+[2019.01.26-06.12.53:053][537]LogEditorTransaction: Undo Move Actors
+[2019.01.26-06.12.53:502][537]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_108.BrushComponent0) Component already registered.
+[2019.01.26-06.12.53:505][537]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_77.BrushComponent0) Component already registered.
+[2019.01.26-06.12.53:508][537]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_26.BrushComponent0) Component already registered.
+[2019.01.26-06.12.53:509][537]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_52.BrushComponent0) Component already registered.
+[2019.01.26-06.12.53:510][537]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_150.BrushComponent0) Component already registered.
+[2019.01.26-06.12.53:514][537]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_126.BrushComponent0) Component already registered.
+[2019.01.26-06.12.53:525][537]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_11.BrushComponent0) Component already registered.
+[2019.01.26-06.12.53:526][537]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.GroupActor_36.GroupComponent) Component already registered.
+[2019.01.26-06.12.53:527][537]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.GroupActor_39.GroupComponent) Component already registered.
+[2019.01.26-06.12.53:571][537]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_105.BrushComponent0) Component already registered.
+[2019.01.26-06.12.53:577][537]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_7.BrushComponent0) Component already registered.
+[2019.01.26-06.12.53:581][537]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_232.BrushComponent0) Component already registered.
+[2019.01.26-06.12.53:582][537]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_261.BrushComponent0) Component already registered.
+[2019.01.26-06.12.53:586][537]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_202.BrushComponent0) Component already registered.
+[2019.01.26-06.12.53:587][537]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_207.BrushComponent0) Component already registered.
+[2019.01.26-06.12.53:589][537]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_178.BrushComponent0) Component already registered.
+[2019.01.26-06.12.53:590][537]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush42.BrushComponent0) Component already registered.
+[2019.01.26-06.12.53:592][537]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush47.BrushComponent0) Component already registered.
+[2019.01.26-06.12.53:599][537]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_87.BrushComponent0) Component already registered.
+[2019.01.26-06.12.53:602][537]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_104.BrushComponent0) Component already registered.
+[2019.01.26-06.12.53:604][537]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_169.BrushComponent0) Component already registered.
+[2019.01.26-06.12.53:607][537]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_163.BrushComponent0) Component already registered.
+[2019.01.26-06.12.53:616][537]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_133.BrushComponent0) Component already registered.
+[2019.01.26-06.12.54:782][553]Cmd: TRANSACTION UNDO
+[2019.01.26-06.12.54:783][553]LogEditorTransaction: Undo Move Actors
+[2019.01.26-06.12.55:265][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_119.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:267][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_41.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:268][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_124.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:268][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_34.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:268][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_110.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:271][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_45.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:273][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_45.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:274][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_128.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:275][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_25.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:275][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_27.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:275][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_92.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:278][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_25.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:280][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_200.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:280][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_30.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:281][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_250.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:281][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_36.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:282][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_28.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:282][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_95.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:283][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_74.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:283][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_71.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:284][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_67.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:285][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_177.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:285][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_91.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:286][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_95.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:287][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_79.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:288][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_87.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:290][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_154.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:290][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_53.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:292][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_141.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:292][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_47.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:292][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_145.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:293][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_163.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:293][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_168.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:294][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_59.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:294][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_56.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:296][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_159.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:296][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_113.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:298][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_30.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:299][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_25.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:300][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_5.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:300][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_15.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:301][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_18.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:301][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush56.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:302][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush51.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:345][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.GroupActor_9.GroupComponent) Component already registered.
+[2019.01.26-06.12.55:345][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.GroupActor_22.GroupComponent) Component already registered.
+[2019.01.26-06.12.55:348][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush44.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:349][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush39.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:352][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_14.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:355][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_57.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:355][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_11.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:356][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_75.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:356][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_22.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:359][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_66.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:359][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_71.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:360][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_17.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:361][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SUB_SW_2.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:362][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_3.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:362][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SUB_SW_6.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:364][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_SideW_1.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:366][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_72.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:368][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_47.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:369][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_3.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:369][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_6.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:372][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_171.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:373][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_180.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:373][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_176.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:374][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_159.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:378][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_163.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:379][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_197.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:379][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_202.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:380][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_205.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:380][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_188.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:380][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_183.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:382][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_120.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:383][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_115.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:385][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_103.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:385][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_112.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:386][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_108.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:387][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_154.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:387][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_149.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:388][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_129.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:388][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_134.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:389][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_137.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:390][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:390][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush9.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:391][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_265.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:391][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_182.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:392][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_266.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:392][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush19.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:394][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush23.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:395][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_227.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:397][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_231.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:397][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_236.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:397][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_215.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:398][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_210.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:399][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_261.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:401][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_249.BrushComponent0) Component already registered.
+[2019.01.26-06.12.55:401][553]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_244.BrushComponent0) Component already registered.
+[2019.01.26-06.13.01:272][649]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.26-06.13.22:411][ 40]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.26-06.14.58:628][ 56]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.15.48:504][550]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.16.45:742][315]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.16.59:269][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KA_MyCity" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_MyCity.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.26-06.17.00:858][719]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_MyCityBC2211F74120BE5BB82818B9E1051763.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_MyCity.umap'
+[2019.01.26-06.17.00:917][719]LogFileHelpers: Saving map 'KA_MyCity' took 1.763
+[2019.01.26-06.18.04:299][ 17]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.18.37:063][431]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.19.02:138][782]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.19.15:083][109]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.19.18:319][181]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.19.59:898][544]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.26-06.20.10:761][791]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.21.07:983][559]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.26-06.21.11:937][654]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.26-06.21.21:390][878]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.26-06.21.29:789][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.21.50:424][600]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.22.43:669][729]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.22.55:412][119]Cmd: TRANSACTION UNDO
+[2019.01.26-06.22.55:412][119]LogEditorTransaction: Undo Move Actors
+[2019.01.26-06.22.55:811][119]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_247.BrushComponent0) Component already registered.
+[2019.01.26-06.22.55:815][119]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_86.BrushComponent0) Component already registered.
+[2019.01.26-06.22.55:817][119]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_42.BrushComponent0) Component already registered.
+[2019.01.26-06.22.55:819][119]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_152.BrushComponent0) Component already registered.
+[2019.01.26-06.22.55:825][119]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_42.BrushComponent0) Component already registered.
+[2019.01.26-06.22.55:831][119]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SUB_SW_6.BrushComponent0) Component already registered.
+[2019.01.26-06.22.55:832][119]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_5.BrushComponent0) Component already registered.
+[2019.01.26-06.22.55:923][119]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_20.BrushComponent0) Component already registered.
+[2019.01.26-06.22.55:925][119]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_20.BrushComponent0) Component already registered.
+[2019.01.26-06.22.55:928][119]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_62.BrushComponent0) Component already registered.
+[2019.01.26-06.22.55:933][119]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_243.BrushComponent0) Component already registered.
+[2019.01.26-06.22.55:941][119]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_210.BrushComponent0) Component already registered.
+[2019.01.26-06.22.55:943][119]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush31.BrushComponent0) Component already registered.
+[2019.01.26-06.22.55:946][119]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ConeBrush_4.BrushComponent0) Component already registered.
+[2019.01.26-06.22.55:952][119]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_78.BrushComponent0) Component already registered.
+[2019.01.26-06.22.55:955][119]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_169.BrushComponent0) Component already registered.
+[2019.01.26-06.22.55:957][119]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_111.BrushComponent0) Component already registered.
+[2019.01.26-06.22.55:959][119]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_163.BrushComponent0) Component already registered.
+[2019.01.26-06.22.55:967][119]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_130.BrushComponent0) Component already registered.
+[2019.01.26-06.23.00:424][216]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.23.05:779][545]EditorErrors: New page: Actor attachment
+[2019.01.26-06.24.28:018][430]Cmd: TRANSACTION UNDO
+[2019.01.26-06.24.28:018][430]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.26-06.24.32:979][572]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.24.34:422][607]Cmd: TRANSACTION UNDO
+[2019.01.26-06.24.34:423][607]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.26-06.25.44:771][140]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.26.41:717][504]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.26.48:322][707]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.26-06.26.48:322][707]Can't find target actor or component.
+[2019.01.26-06.26.53:089][834]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.26.56:221][ 22]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.26-06.27.20:147][480]Cmd: TRANSACTION UNDO
+[2019.01.26-06.27.20:147][480]LogEditorTransaction: Undo Move Actors
+[2019.01.26-06.27.20:610][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_133.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:610][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_45.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:611][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_125.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:611][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_39.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:612][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_130.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:612][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_40.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:613][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_148.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:613][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_52.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:614][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_50.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:614][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_149.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:614][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_152.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:614][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_141.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:615][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_45.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:615][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_138.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:615][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_144.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:616][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_50.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:617][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_251.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:618][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_247.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:618][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_248.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:618][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_96.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:619][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_27.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:619][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_32.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:620][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_37.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:620][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_39.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:621][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_110.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:621][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_32.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:622][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_114.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:622][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_37.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:623][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_96.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:624][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_93.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:625][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_77.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:625][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_87.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:628][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_119.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:628][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_115.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:629][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_103.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:630][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_113.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:630][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_112.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:630][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_108.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:631][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_55.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:631][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_57.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:632][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_167.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:632][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_57.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:633][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_159.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:633][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_52.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:633][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_74.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:635][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_69.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:635][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_65.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:636][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_62.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:636][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_170.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:637][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_23.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:637][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_17.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:638][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_20.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:638][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_38.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:639][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_13.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:639][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_5.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:640][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_SideW_2.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:641][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SUB_SW_5.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:641][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SUB_SW_1.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:642][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_31.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:642][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_27.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:693][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush8.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:695][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush20.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:695][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush15.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:696][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_21.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:696][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_69.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:697][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_77.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:697][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_19.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:698][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_63.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:698][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_16.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:699][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_66.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:700][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_27.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:700][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_85.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:701][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_89.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:702][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_22.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:703][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_82.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:703][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_29.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:704][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_9.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:704][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_60.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:706][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_4.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:707][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SUB_SW_7.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:707][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_4.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:708][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_7.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:709][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_16.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:709][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_55.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:710][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_9.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:711][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_11.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:712][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_11.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:713][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_52.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:713][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_200.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:714][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_196.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:715][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_208.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:715][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_203.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:716][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_186.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:717][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_193.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:718][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_189.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:719][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_234.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:720][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_231.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:721][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_215.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:721][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_209.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:722][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_212.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:723][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_146.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:724][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_143.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:726][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_131.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:726][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_127.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:727][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_152.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:727][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_134.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:727][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_172.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:728][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_169.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:729][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_177.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:730][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_178.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:731][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_162.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:732][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush54.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:732][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush50.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:732][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush38.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:733][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush35.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:733][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush47.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:734][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush43.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:734][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Bridge_T_11.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:735][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Bridge_T_5.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:735][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Bridge_T_3.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:736][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Bridge_B_4.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:736][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Bridge_B_9.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:737][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Bridge_B_7.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:738][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_262.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:739][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_258.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:739][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_259.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:739][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_243.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:740][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_239.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:740][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_246.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:741][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_181.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:742][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_265.BrushComponent0) Component already registered.
+[2019.01.26-06.27.20:742][480]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_66.BrushComponent0) Component already registered.
+[2019.01.26-06.28.05:988][546]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.28.07:789][546]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_MyCity_Auto42BA8667A4F346925D045AE8889A238D7.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/Autosaves/Game/KA_MyCity_Auto4.umap'
+[2019.01.26-06.28.07:807][546]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 1.751
+[2019.01.26-06.28.07:807][546]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.751
+[2019.01.26-06.28.07:813][546]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mi_topBase_ka] ([1] browsable assets)...
+[2019.01.26-06.28.07:813][546]OBJ SavePackage: Finished generating thumbnails for package [/Game/mi_topBase_ka]
+[2019.01.26-06.28.07:870][546]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy mi_topBase_ka, compiling. 
+[2019.01.26-06.28.08:567][546]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.26-06.28.08:576][546]TextureStreamingBuild: Display: Compiling optional shaders took 0.710 seconds.
+[2019.01.26-06.28.08:661][546]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_topBase_ka_Auto4896F32114A0AEE92BF2FAA9696218765.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/Autosaves/Game/mi_topBase_ka_Auto4.uasset'
+[2019.01.26-06.28.08:662][546]LogFileHelpers: Auto-saving content packages took 0.850
+[2019.01.26-06.29.07:789][891]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.29.13:663][ 14]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.26-06.29.53:444][701]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.30.01:024][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.30.08:886][ 12]Cmd: TRANSACTION UNDO
+[2019.01.26-06.30.08:887][ 12]LogEditorTransaction: Undo Scale Actors
+[2019.01.26-06.30.09:330][ 12]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_36.BrushComponent0) Component already registered.
+[2019.01.26-06.30.09:338][ 12]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_98.BrushComponent0) Component already registered.
+[2019.01.26-06.30.09:340][ 12]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_50.BrushComponent0) Component already registered.
+[2019.01.26-06.30.09:341][ 12]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_168.BrushComponent0) Component already registered.
+[2019.01.26-06.30.09:346][ 12]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_150.BrushComponent0) Component already registered.
+[2019.01.26-06.30.09:349][ 12]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SUB_SW_8.BrushComponent0) Component already registered.
+[2019.01.26-06.30.09:398][ 12]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_20.BrushComponent0) Component already registered.
+[2019.01.26-06.30.09:400][ 12]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_19.BrushComponent0) Component already registered.
+[2019.01.26-06.30.09:402][ 12]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_22.BrushComponent0) Component already registered.
+[2019.01.26-06.30.09:410][ 12]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_63.BrushComponent0) Component already registered.
+[2019.01.26-06.30.09:416][ 12]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_179.BrushComponent0) Component already registered.
+[2019.01.26-06.30.09:432][ 12]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_107.BrushComponent0) Component already registered.
+[2019.01.26-06.30.09:438][ 12]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_73.BrushComponent0) Component already registered.
+[2019.01.26-06.30.09:440][ 12]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_170.BrushComponent0) Component already registered.
+[2019.01.26-06.30.09:441][ 12]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_199.BrushComponent0) Component already registered.
+[2019.01.26-06.30.09:446][ 12]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_178.BrushComponent0) Component already registered.
+[2019.01.26-06.30.12:247][ 59]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.30.29:076][396]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.30.40:688][604]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.30.51:428][818]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.31.18:178][224]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.31.42:304][674]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.32.04:365][281]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.32.11:206][433]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.32.12:341][495]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.32.12:465][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KA_MyCity" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_MyCity.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.26-06.32.14:017][495]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_MyCity2B40D393444C1141CAC5C19DD5F3BEF3.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_MyCity.umap'
+[2019.01.26-06.32.14:087][495]LogFileHelpers: Saving map 'KA_MyCity' took 1.738
+[2019.01.26-06.32.14:093][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mi_topBase_ka" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_topBase_ka.uasset" SILENT=true
+[2019.01.26-06.32.14:139][495]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy mi_topBase_ka, compiling. 
+[2019.01.26-06.32.14:715][495]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.26-06.32.14:720][495]TextureStreamingBuild: Display: Compiling optional shaders took 0.586 seconds.
+[2019.01.26-06.32.14:866][495]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_topBase_ka6D8C926A4141F06EDFF10EB48F50BFF4.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_topBase_ka.uasset'
