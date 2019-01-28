@@ -7486,3 +7486,163 @@ LogInit: Object subsystem initialized
 [2019.01.28-02.37.48:199][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KA_MyCity" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_MyCity.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
 [2019.01.28-02.37.52:593][778]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_MyCity9677F06D415FA4D2B010C2970F31BAC7.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_MyCity.umap'
 [2019.01.28-02.37.52:720][778]LogFileHelpers: Saving map 'KA_MyCity' took 4.778
+[2019.01.28-05.40.32:936][267]LogHttp: Warning: 0000016FD4179080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.28-05.40.32:936][267]LogHttp: Warning: 0000016FD4179080: libcurl info message cache 0 (Connection 275 seems to be dead!)
+[2019.01.28-05.40.32:936][267]LogHttp: Warning: 0000016FD4179080: libcurl info message cache 1 (Closing connection 275)
+[2019.01.28-05.40.32:936][267]LogHttp: Warning: 0000016FD4179080: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.01.28-05.40.32:936][267]LogHttp: Warning: 0000016FD4179080: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.28-05.40.32:936][267]LogHttp: Warning: 0000016FD4179080: libcurl info message cache 4 (Closing connection 276)
+[2019.01.28-15.05.39:049][707]LogHttp: Warning: 0000016FD4179580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.28-15.05.39:049][707]LogHttp: Warning: 0000016FD4179580: libcurl info message cache 0 (Connection 283 seems to be dead!)
+[2019.01.28-15.05.39:049][707]LogHttp: Warning: 0000016FD4179580: libcurl info message cache 1 (Closing connection 283)
+[2019.01.28-15.05.39:049][707]LogHttp: Warning: 0000016FD4179580: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.01.28-15.05.39:049][707]LogHttp: Warning: 0000016FD4179580: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.28-15.05.39:049][707]LogHttp: Warning: 0000016FD4179580: libcurl info message cache 4 (Closing connection 284)
+[2019.01.28-15.21.44:285][604]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.28-15.21.53:890][796]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-15.22.18:223][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-15.23.43:365][  3]Cmd: TRANSACTION UNDO
+[2019.01.28-15.23.43:365][  3]LogEditorTransaction: Undo Create Folder
+[2019.01.28-15.23.43:450][  3]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush248.BrushComponent0) Component already registered.
+[2019.01.28-15.23.43:451][  3]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush251.BrushComponent0) Component already registered.
+[2019.01.28-15.25.52:397][726]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-15.26.31:542][687]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16547) Not registered. Aborting.
+[2019.01.28-15.26.31:543][687]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16548) Not registered. Aborting.
+[2019.01.28-15.26.31:544][687]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16549) Not registered. Aborting.
+[2019.01.28-15.26.31:544][687]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16550) Not registered. Aborting.
+[2019.01.28-15.26.31:545][687]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16551) Not registered. Aborting.
+[2019.01.28-15.26.31:547][687]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16552) Not registered. Aborting.
+[2019.01.28-15.26.31:548][687]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16553) Not registered. Aborting.
+[2019.01.28-15.26.31:550][687]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16554) Not registered. Aborting.
+[2019.01.28-15.26.31:550][687]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16555) Not registered. Aborting.
+[2019.01.28-15.26.31:551][687]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16556) Not registered. Aborting.
+[2019.01.28-15.26.31:552][687]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16557) Not registered. Aborting.
+[2019.01.28-15.26.31:553][687]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16558) Not registered. Aborting.
+[2019.01.28-15.26.31:554][687]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16559) Not registered. Aborting.
+[2019.01.28-15.26.31:555][687]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16560) Not registered. Aborting.
+[2019.01.28-15.26.31:557][687]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16561) Not registered. Aborting.
+[2019.01.28-15.26.31:559][687]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16562) Not registered. Aborting.
+[2019.01.28-15.26.31:561][687]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16563) Not registered. Aborting.
+[2019.01.28-15.26.31:562][687]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16564) Not registered. Aborting.
+[2019.01.28-15.26.31:563][687]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16565) Not registered. Aborting.
+[2019.01.28-15.26.31:564][687]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16566) Not registered. Aborting.
+[2019.01.28-15.26.34:627][687]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.28-15.26.34:634][687]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16567) Already registered. Aborting.
+[2019.01.28-15.26.34:634][687]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16568) Already registered. Aborting.
+[2019.01.28-15.26.34:635][687]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16569) Already registered. Aborting.
+[2019.01.28-15.26.34:635][687]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16570) Already registered. Aborting.
+[2019.01.28-15.26.34:635][687]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16571) Already registered. Aborting.
+[2019.01.28-15.26.34:635][687]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16572) Already registered. Aborting.
+[2019.01.28-15.26.34:635][687]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16573) Already registered. Aborting.
+[2019.01.28-15.26.34:635][687]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16574) Already registered. Aborting.
+[2019.01.28-15.26.34:635][687]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16575) Already registered. Aborting.
+[2019.01.28-15.26.34:635][687]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16576) Already registered. Aborting.
+[2019.01.28-15.26.34:635][687]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16577) Already registered. Aborting.
+[2019.01.28-15.26.34:635][687]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16578) Already registered. Aborting.
+[2019.01.28-15.26.34:635][687]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16579) Already registered. Aborting.
+[2019.01.28-15.26.34:635][687]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16580) Already registered. Aborting.
+[2019.01.28-15.26.34:635][687]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16581) Already registered. Aborting.
+[2019.01.28-15.26.34:635][687]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16582) Already registered. Aborting.
+[2019.01.28-15.26.34:635][687]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16583) Already registered. Aborting.
+[2019.01.28-15.26.34:635][687]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16584) Already registered. Aborting.
+[2019.01.28-15.26.34:635][687]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16585) Already registered. Aborting.
+[2019.01.28-15.26.34:635][687]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16586) Already registered. Aborting.
+[2019.01.28-15.26.50:368][906]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.28-15.26.57:484][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-15.27.14:667][573]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16607) Not registered. Aborting.
+[2019.01.28-15.27.14:668][573]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16608) Not registered. Aborting.
+[2019.01.28-15.27.14:668][573]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16609) Not registered. Aborting.
+[2019.01.28-15.27.14:668][573]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16610) Not registered. Aborting.
+[2019.01.28-15.27.14:669][573]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16611) Not registered. Aborting.
+[2019.01.28-15.27.14:670][573]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16612) Not registered. Aborting.
+[2019.01.28-15.27.14:670][573]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16613) Not registered. Aborting.
+[2019.01.28-15.27.14:671][573]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16614) Not registered. Aborting.
+[2019.01.28-15.27.14:671][573]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16615) Not registered. Aborting.
+[2019.01.28-15.27.14:672][573]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16616) Not registered. Aborting.
+[2019.01.28-15.27.14:672][573]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16617) Not registered. Aborting.
+[2019.01.28-15.27.14:672][573]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16618) Not registered. Aborting.
+[2019.01.28-15.27.14:673][573]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16619) Not registered. Aborting.
+[2019.01.28-15.27.14:673][573]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16620) Not registered. Aborting.
+[2019.01.28-15.27.14:674][573]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16621) Not registered. Aborting.
+[2019.01.28-15.27.14:675][573]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16622) Not registered. Aborting.
+[2019.01.28-15.27.14:675][573]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16623) Not registered. Aborting.
+[2019.01.28-15.27.14:676][573]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16624) Not registered. Aborting.
+[2019.01.28-15.27.14:676][573]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16625) Not registered. Aborting.
+[2019.01.28-15.27.14:676][573]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16626) Not registered. Aborting.
+[2019.01.28-15.27.18:368][573]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.28-15.27.18:376][573]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16627) Already registered. Aborting.
+[2019.01.28-15.27.18:376][573]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16628) Already registered. Aborting.
+[2019.01.28-15.27.18:376][573]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16629) Already registered. Aborting.
+[2019.01.28-15.27.18:376][573]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16630) Already registered. Aborting.
+[2019.01.28-15.27.18:376][573]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16631) Already registered. Aborting.
+[2019.01.28-15.27.18:377][573]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16632) Already registered. Aborting.
+[2019.01.28-15.27.18:377][573]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16633) Already registered. Aborting.
+[2019.01.28-15.27.18:377][573]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16634) Already registered. Aborting.
+[2019.01.28-15.27.18:377][573]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16635) Already registered. Aborting.
+[2019.01.28-15.27.18:377][573]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16636) Already registered. Aborting.
+[2019.01.28-15.27.18:377][573]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16637) Already registered. Aborting.
+[2019.01.28-15.27.18:377][573]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16638) Already registered. Aborting.
+[2019.01.28-15.27.18:377][573]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16639) Already registered. Aborting.
+[2019.01.28-15.27.18:377][573]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16640) Already registered. Aborting.
+[2019.01.28-15.27.18:377][573]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16641) Already registered. Aborting.
+[2019.01.28-15.27.18:377][573]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16642) Already registered. Aborting.
+[2019.01.28-15.27.18:377][573]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16643) Already registered. Aborting.
+[2019.01.28-15.27.18:377][573]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16644) Already registered. Aborting.
+[2019.01.28-15.27.18:377][573]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16645) Already registered. Aborting.
+[2019.01.28-15.27.18:377][573]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16646) Already registered. Aborting.
+[2019.01.28-15.27.38:236][875]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.28-15.27.59:879][523]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16667) Not registered. Aborting.
+[2019.01.28-15.27.59:880][523]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16668) Not registered. Aborting.
+[2019.01.28-15.27.59:881][523]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16669) Not registered. Aborting.
+[2019.01.28-15.27.59:883][523]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16670) Not registered. Aborting.
+[2019.01.28-15.27.59:885][523]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16671) Not registered. Aborting.
+[2019.01.28-15.27.59:889][523]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16672) Not registered. Aborting.
+[2019.01.28-15.27.59:891][523]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16673) Not registered. Aborting.
+[2019.01.28-15.27.59:895][523]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16674) Not registered. Aborting.
+[2019.01.28-15.27.59:897][523]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16675) Not registered. Aborting.
+[2019.01.28-15.27.59:900][523]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16676) Not registered. Aborting.
+[2019.01.28-15.27.59:902][523]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16677) Not registered. Aborting.
+[2019.01.28-15.27.59:905][523]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16678) Not registered. Aborting.
+[2019.01.28-15.27.59:907][523]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16679) Not registered. Aborting.
+[2019.01.28-15.27.59:908][523]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16680) Not registered. Aborting.
+[2019.01.28-15.27.59:914][523]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16681) Not registered. Aborting.
+[2019.01.28-15.27.59:917][523]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16682) Not registered. Aborting.
+[2019.01.28-15.27.59:921][523]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16683) Not registered. Aborting.
+[2019.01.28-15.27.59:925][523]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16684) Not registered. Aborting.
+[2019.01.28-15.27.59:926][523]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16685) Not registered. Aborting.
+[2019.01.28-15.27.59:927][523]LogActorComponent: UnregisterComponent: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16686) Not registered. Aborting.
+[2019.01.28-15.28.04:085][523]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.28-15.28.04:093][523]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16687) Already registered. Aborting.
+[2019.01.28-15.28.04:093][523]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16688) Already registered. Aborting.
+[2019.01.28-15.28.04:093][523]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16689) Already registered. Aborting.
+[2019.01.28-15.28.04:093][523]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16690) Already registered. Aborting.
+[2019.01.28-15.28.04:093][523]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16691) Already registered. Aborting.
+[2019.01.28-15.28.04:093][523]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16692) Already registered. Aborting.
+[2019.01.28-15.28.04:093][523]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16693) Already registered. Aborting.
+[2019.01.28-15.28.04:093][523]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16694) Already registered. Aborting.
+[2019.01.28-15.28.04:093][523]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16695) Already registered. Aborting.
+[2019.01.28-15.28.04:093][523]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16696) Already registered. Aborting.
+[2019.01.28-15.28.04:093][523]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16697) Already registered. Aborting.
+[2019.01.28-15.28.04:093][523]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16698) Already registered. Aborting.
+[2019.01.28-15.28.04:093][523]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16699) Already registered. Aborting.
+[2019.01.28-15.28.04:093][523]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16700) Already registered. Aborting.
+[2019.01.28-15.28.04:093][523]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16701) Already registered. Aborting.
+[2019.01.28-15.28.04:094][523]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16702) Already registered. Aborting.
+[2019.01.28-15.28.04:094][523]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16703) Already registered. Aborting.
+[2019.01.28-15.28.04:094][523]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16704) Already registered. Aborting.
+[2019.01.28-15.28.04:094][523]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16705) Already registered. Aborting.
+[2019.01.28-15.28.04:094][523]LogActorComponent: RegisterComponentWithWorld: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ModelComponent_16706) Already registered. Aborting.
+[2019.01.28-15.28.06:319][562]Cmd: TRANSACTION UNDO
+[2019.01.28-15.28.06:349][562]LogEditorTransaction: Undo Snap Actors To Actor
+[2019.01.28-15.28.30:388][ 69]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.28-15.28.31:019][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.28-15.28.31:544][104]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.28-15.28.33:091][188]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.28-15.28.33:569][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KA_MyCity" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_MyCity.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.28-15.28.42:119][188]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_MyCity56B26F3E47AD9ACFEAAA4DA3F52A9E66.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_MyCity.umap'
+[2019.01.28-15.28.42:367][188]LogFileHelpers: Saving map 'KA_MyCity' took 9.268
+[2019.01.28-15.28.42:374][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mi_topBase_ka" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_topBase_ka.uasset" SILENT=true
+[2019.01.28-15.28.42:430][188]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy mi_topBase_ka, compiling. 
+[2019.01.28-15.28.45:219][188]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.28-15.28.45:243][188]TextureStreamingBuild: Display: Compiling optional shaders took 2.819 seconds.
+[2019.01.28-15.28.45:297][188]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_topBase_ka55A0CB54467BA591051876B8D4FA8B7A.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_topBase_ka.uasset'
