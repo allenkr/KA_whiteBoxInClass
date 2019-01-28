@@ -7783,3 +7783,58 @@ LogInit: Object subsystem initialized
 [2019.01.28-20.08.40:217][365]LogShaderCompilers: Display: Shaders left to compile 1
 [2019.01.28-20.08.40:270][365]TextureStreamingBuild: Display: Compiling optional shaders took 0.575 seconds.
 [2019.01.28-20.08.40:326][365]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_topBase_ka1190F1C148708EE8FC5A279190F88865.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_topBase_ka.uasset'
+[2019.01.28-20.10.19:595][426]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.28-20.10.38:953][928]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-20.11.02:932][503]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.28-20.11.11:916][701]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-20.11.46:408][602]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-20.13.30:316][978]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-20.13.45:861][281]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.28-20.14.22:409][516]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.28-20.14.36:819][744]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.28-20.16.17:317][829]Cmd: DELETE
+[2019.01.28-20.16.17:317][829]Cmd: ACTOR DELETE
+[2019.01.28-20.16.18:539][829]LogEditorActor: Deleted Actor: Brush
+[2019.01.28-20.16.18:653][829]LogEditorActor: Deleted Actor: Brush
+[2019.01.28-20.16.18:654][829]LogEditorActor: Deleted Actor: Brush
+[2019.01.28-20.16.18:655][829]LogEditorActor: Deleted Actor: Brush
+[2019.01.28-20.16.18:655][829]LogEditorActor: Deleted Actor: Brush
+[2019.01.28-20.16.18:656][829]LogEditorActor: Deleted Actor: Brush
+[2019.01.28-20.16.18:657][829]LogEditorActor: Deleted Actor: Brush
+[2019.01.28-20.16.18:658][829]LogEditorActor: Deleted Actor: Brush
+[2019.01.28-20.16.18:658][829]LogEditorActor: Deleted Actor: Brush
+[2019.01.28-20.16.18:659][829]LogEditorActor: Deleted Actor: Brush
+[2019.01.28-20.16.18:660][829]LogEditorActor: Deleted Actor: Brush
+[2019.01.28-20.16.18:660][829]LogEditorActor: Deleted Actor: Brush
+[2019.01.28-20.16.18:661][829]LogEditorActor: Deleted Actor: Brush
+[2019.01.28-20.16.18:662][829]LogEditorActor: Deleted Actor: Brush
+[2019.01.28-20.16.18:662][829]LogEditorActor: Deleted Actor: Brush
+[2019.01.28-20.16.18:663][829]LogEditorActor: Deleted Actor: Brush
+[2019.01.28-20.16.18:664][829]LogEditorActor: Deleted Actor: Brush
+[2019.01.28-20.16.18:665][829]LogEditorActor: Deleted Actor: Brush
+[2019.01.28-20.16.18:666][829]LogEditorActor: Deleted Actor: Brush
+[2019.01.28-20.16.21:706][829]LogEditorActor: Deleted 19 Actors (3.829 secs)
+[2019.01.28-20.16.24:484][884]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-20.16.28:930][  2]Cmd: DELETE
+[2019.01.28-20.16.28:930][  2]Cmd: ACTOR DELETE
+[2019.01.28-20.16.29:077][  2]LogEditorActor: Deleted Actor: Brush
+[2019.01.28-20.16.31:926][  2]LogEditorActor: Deleted 1 Actors (2.993 secs)
+[2019.01.28-20.16.49:609][397]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-20.16.58:172][638]LogEditorViewport: Clicking on Actor (LMB): Brush (big bridge8)
+[2019.01.28-20.17.15:297][988]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-20.17.32:706][215]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.28-20.17.54:499][585]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.28-20.17.56:943][645]Cmd: TRANSACTION UNDO
+[2019.01.28-20.17.56:943][645]LogEditorTransaction: Undo Snap Actors To Actor
+[2019.01.28-20.18.07:370][917]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-20.19.14:064][201]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.28-20.19.20:266][330]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.28-20.19.21:463][409]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.28-20.19.21:585][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KA_MyCity" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_MyCity.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.28-20.19.25:137][409]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_MyCityCFBAB17E4D5738DE14DCFDBCFC1EC311.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_MyCity.umap'
+[2019.01.28-20.19.25:211][409]LogFileHelpers: Saving map 'KA_MyCity' took 3.739
+[2019.01.28-20.19.25:217][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mi_topBase_ka" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_topBase_ka.uasset" SILENT=true
+[2019.01.28-20.19.25:276][409]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy mi_topBase_ka, compiling. 
+[2019.01.28-20.19.25:794][409]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.28-20.19.25:817][409]TextureStreamingBuild: Display: Compiling optional shaders took 0.545 seconds.
+[2019.01.28-20.19.25:943][409]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_topBase_ka1FCFF28B4F049D75C0150DA08C024D24.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_topBase_ka.uasset'
