@@ -7646,3 +7646,140 @@ LogInit: Object subsystem initialized
 [2019.01.28-15.28.45:219][188]LogShaderCompilers: Display: Shaders left to compile 1
 [2019.01.28-15.28.45:243][188]TextureStreamingBuild: Display: Compiling optional shaders took 2.819 seconds.
 [2019.01.28-15.28.45:297][188]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_topBase_ka55A0CB54467BA591051876B8D4FA8B7A.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_topBase_ka.uasset'
+[2019.01.28-15.30.34:139][784]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.28-15.30.49:233][ 85]Cmd: TRANSACTION UNDO
+[2019.01.28-15.30.49:233][ 85]LogEditorTransaction: Undo Actor Movement
+[2019.01.28-15.30.51:669][164]Cmd: TRANSACTION UNDO
+[2019.01.28-15.30.51:669][164]LogEditorTransaction: Undo Move Actors
+[2019.01.28-15.30.53:694][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:725][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush113.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:729][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush106.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:730][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush125.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:732][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush115.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:732][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush118.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:751][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Bridge_T_39.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:762][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_25.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:763][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_20.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:764][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_89.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:765][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_200.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:765][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_86.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:772][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SW_Brush_32.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:773][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_27.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:774][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_249.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:775][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_99.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:775][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_102.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:777][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_36.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:895][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.SUB_SW_5.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:900][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_3.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:903][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_110.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:903][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_103.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:904][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_124.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:905][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_114.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:905][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_117.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:911][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_138.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:912][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_131.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:912][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_165.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:913][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_142.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:913][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_145.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:914][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_146.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:917][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.grass_Brush_51.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:922][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Brush_st_162.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:924][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Bridge_T_127.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:925][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush220.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:926][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Bridge_B_134.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:927][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Bridge_B_129.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:927][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Bridge_T_130.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:935][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Bridge_B_141.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:935][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Bridge_T_137.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:936][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Bridge_B_148.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:937][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Bridge_B_143.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:938][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Bridge_T_144.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:939][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Bridge_T_103.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:943][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Bridge_T_110.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:951][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.Bridge_T_117.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:953][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush340.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:954][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush334.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:955][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush354.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:956][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush344.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:956][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush347.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:989][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush368.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:990][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush361.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:991][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush381.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:992][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush372.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:992][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.ConeBrush13.BrushComponent0) Component already registered.
+[2019.01.28-15.30.53:993][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush235.BrushComponent0) Component already registered.
+[2019.01.28-15.30.54:087][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush249.BrushComponent0) Component already registered.
+[2019.01.28-15.30.54:105][164]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_MyCity.KA_MyCity:PersistentLevel.BoxBrush263.BrushComponent0) Component already registered.
+[2019.01.28-15.35.08:106][382]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-15.38.33:472][994]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 0.052
+[2019.01.28-15.38.33:475][994]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mi_topBase_ka] ([1] browsable assets)...
+[2019.01.28-15.38.33:475][994]OBJ SavePackage: Finished generating thumbnails for package [/Game/mi_topBase_ka]
+[2019.01.28-15.38.33:527][994]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy mi_topBase_ka, compiling. 
+[2019.01.28-15.38.34:042][994]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.28-15.38.34:117][994]TextureStreamingBuild: Display: Compiling optional shaders took 0.596 seconds.
+[2019.01.28-15.38.34:201][994]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_topBase_ka_Auto4F835C5234755432A90E8F5863A0F665C.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/Autosaves/Game/mi_topBase_ka_Auto4.uasset'
+[2019.01.28-15.38.34:222][994]LogFileHelpers: Auto-saving content packages took 0.748
+[2019.01.28-15.48.34:568][782]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 0.093
+[2019.01.28-15.58.35:167][570]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 0.052
+[2019.01.28-16.19.01:261][932]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.28-16.19.11:786][961]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 0.067
+[2019.01.28-16.29.12:149][742]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 0.051
+[2019.01.28-16.39.12:728][529]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 0.046
+[2019.01.28-16.49.16:223][324]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 0.060
+[2019.01.28-16.59.16:637][112]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 0.056
+[2019.01.28-17.09.17:242][898]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 0.116
+[2019.01.28-17.19.17:854][686]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 0.095
+[2019.01.28-17.29.18:503][474]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 0.065
+[2019.01.28-17.39.19:220][265]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 0.092
+[2019.01.28-17.49.19:774][ 44]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 0.150
+[2019.01.28-17.59.20:288][831]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 0.196
+[2019.01.28-18.09.20:729][620]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 0.051
+[2019.01.28-18.19.21:337][410]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 0.087
+[2019.01.28-18.28.23:031][720]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.28-18.29.21:967][890]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 0.124
+[2019.01.28-18.39.22:515][683]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 0.056
+[2019.01.28-18.49.23:200][474]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 0.131
+[2019.01.28-18.59.23:509][264]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 0.054
+[2019.01.28-19.09.27:017][ 61]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 0.105
+[2019.01.28-19.19.27:604][850]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 0.102
+[2019.01.28-19.29.28:083][640]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 0.090
+[2019.01.28-19.33.24:336][667]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.28-19.34.11:592][524]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-19.34.14:828][568]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.28-19.34.24:313][680]Cmd: TRANSACTION UNDO
+[2019.01.28-19.34.24:314][680]LogEditorTransaction: Undo Brush Add
+[2019.01.28-19.34.41:307][962]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-19.54.51:140][688]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.28-19.54.53:330][695]LogHttp: Warning: 000001703B48C680: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.28-19.54.53:330][695]LogHttp: Warning: 000001703B48C680: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x16f2f65bfa0 [can pipeline])
+[2019.01.28-19.54.53:330][695]LogHttp: Warning: 000001703B48C680: libcurl info message cache 1 (Re-using existing connection! (#398) with host datarouter.ol.epicgames.com)
+[2019.01.28-19.54.53:330][695]LogHttp: Warning: 000001703B48C680: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.208.92.41) port 443 (#398))
+[2019.01.28-19.54.53:330][695]LogHttp: Warning: 000001703B48C680: libcurl info message cache 3 (upload completely sent off: 6404 out of 6404 bytes)
+[2019.01.28-19.54.53:330][695]LogHttp: Warning: 000001703B48C680: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2019.01.28-19.54.53:330][695]LogHttp: Warning: 000001703B48C680: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.01.28-19.54.53:330][695]LogHttp: Warning: 000001703B48C680: libcurl info message cache 6 (Closing connection 398)
+[2019.01.28-19.54.53:330][695]LogHttp: Warning: 000001703B48C680: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B65A9FE55-4AE7-2FF0-4915-1E9CBDB82B99%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=e011238f4f314ec683400ca4fd12cfbc%7C70eb07038fb944fc985655b09c0f82ea%7Cfcf5425e-d6a0-4837-8d7c-8c6d5ebd9794&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2019.01.28-19.54.53:330][695]LogHttp: Warning: 000001703B48C680: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.28-19.54.53:330][695]LogHttp: Warning: 000001703B48C680: libcurl info message cache 9 (Closing connection 399)
+[2019.01.28-19.55.07:801][714]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_MyCity_Auto58A2E5AC64D1DCBA910EA3AB03496B290.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/Autosaves/Game/KA_MyCity_Auto5.umap'
+[2019.01.28-19.55.08:227][714]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_MyCity' took 8.210
+[2019.01.28-19.55.08:227][714]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 8.210
+[2019.01.28-19.55.08:233][714]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mi_topBase_ka] ([1] browsable assets)...
+[2019.01.28-19.55.08:234][714]OBJ SavePackage: Finished generating thumbnails for package [/Game/mi_topBase_ka]
+[2019.01.28-19.55.08:735][714]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy mi_topBase_ka, compiling. 
+[2019.01.28-19.55.16:731][714]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.28-19.55.16:769][714]TextureStreamingBuild: Display: Compiling optional shaders took 8.041 seconds.
+[2019.01.28-19.55.17:284][714]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_topBase_ka_Auto5800F01D242444699EBD2B38168431294.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/Autosaves/Game/mi_topBase_ka_Auto5.uasset'
+[2019.01.28-19.55.17:319][714]LogFileHelpers: Auto-saving content packages took 9.087
+[2019.01.28-20.07.46:485][968]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.28-20.08.27:876][193]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.28-20.08.33:503][303]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.28-20.08.34:632][365]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.28-20.08.35:998][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KA_MyCity" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_MyCity.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.28-20.08.39:507][365]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/KA_MyCity60429BB94C3CE9954736A7A06E8C304A.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/KA_MyCity.umap'
+[2019.01.28-20.08.39:650][365]LogFileHelpers: Saving map 'KA_MyCity' took 5.012
+[2019.01.28-20.08.39:656][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mi_topBase_ka" FILE="../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_topBase_ka.uasset" SILENT=true
+[2019.01.28-20.08.39:699][365]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy mi_topBase_ka, compiling. 
+[2019.01.28-20.08.40:217][365]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.28-20.08.40:270][365]TextureStreamingBuild: Display: Compiling optional shaders took 0.575 seconds.
+[2019.01.28-20.08.40:326][365]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Saved/mi_topBase_ka1190F1C148708EE8FC5A279190F88865.tmp' to '../../../../../../Users/kevin/Documents/Unreal Projects/KA_whiteBoxInClass/Content/mi_topBase_ka.uasset'
